@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+
+{% block navigation_block %}
+<ul>
+    <ul class="nav">
+        <li class="nav-item"><a class="nav-link" href="/">SShelトップ</a></li>
+        <li class="nav-item"><a class="nav-link" href="/account">家計簿トップ</a></li>
+    </ul>
+</ul>
+{% endblock %}
+
+{% block content %}
+<br>
+<div class="row">
+    <div class="col-md-10">
+        <h1>家計簿トップ</h1>
+    </div>
+    <div class="col-md-2">
+        <a href="/account/add" class="btn btn-primary">新規作成</a>
+    </div>
+</div>
+<table class="table">
+    <thead class="table-dark">
+    <tr>
+        <th>編集</th><th>日付</th><th>金額</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for rec in records %}
+    <tr>        
+        <td><a href="/account/edit/{{ rec['account_id'] }}" class="btn btn-primary btn-lg">編集</a></td>
+        <td>{{ rec['date'] }}</td>
+        <td>{{ rec['ammount'] }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+<hr>
+ 
+{% endblock %}
