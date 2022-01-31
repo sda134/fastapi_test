@@ -1,0 +1,63 @@
+{% extends "layout.html" %}
+
+{% block navigation_block %}
+<ul>
+    <ul class="nav">
+        <li class="nav-item"><a class="nav-link" href="/">SShelトップ</a></li>
+        <li class="nav-item"><a class="nav-link" href="/account">家計簿トップ</a></li>
+        <li class="nav-item"><a class="nav-link" href="/total">集計</a></li>
+    </ul>
+</ul>
+{% endblock %}
+
+{% block content %}
+<br>
+<div class="row">
+    <div class="col-md-10">
+        <h1>家計簿 追加</h1>
+    </div>
+</div>
+<form method="post">
+    <table class="table">
+        <tbody>
+            <tr class="form-group">
+                <td class="">
+                    <label class="form-label">金額</label>
+                </td>
+                <td>
+                    <input class="form-control" placeholder="金額を入力" name="ammount">           
+                </td>
+            </tr>
+            <tr class="form-group">
+                <td>
+                    <label class="form-label">区分</label>
+                </td>
+                <td>
+                    <select class="form-select" name="category_id">
+                        {% for ct in categories %}
+                        <option value="{{ct['id']}}">{{ct['name']}}</option>
+                        {% endfor %}
+                    </select>
+                </td>
+            </tr>
+            <tr>        
+                <td>
+                    <label class="form-label">リソース</label>
+                </td>
+                <td>
+                    <select class="form-select" name="resource_id">
+                        {% for rs in resources %}
+                        <option value="{{rs['id']}}">{{rs['name']}}</option>
+                        {% endfor %}
+                    </select>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <input type="submit" value="送信する">
+    <!-- a href="/account/request/add" class="btn btn-primary">追加</a-->
+</form>
+
+<hr>
+ 
+{% endblock %}
