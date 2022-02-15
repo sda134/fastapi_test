@@ -1,0 +1,630 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProductSettingFormat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProductName>整経機</ProductName>
+  <SingleProductsData>
+    <SingleProductFormat>
+      <RecordName>ブレッドボード機</RecordName>
+      <SerialCode />
+      <Reference>開発用FXのデータ</Reference>
+      <ActControlSetting>
+        <ActHostAddress />
+        <ActProtocolType>PROTOCOL_USBGOT</ActProtocolType>
+        <ActCpuType>FX3UCCPU</ActCpuType>
+        <ActUnitType>FXCPU</ActUnitType>
+        <PortNumber>PORT_1</PortNumber>
+        <BaudRate>BAUDRATE_9600</BaudRate>
+        <DataBits>DATABIT_8</DataBits>
+        <StopBits>STOPBIT_ONE</StopBits>
+        <ParityBits>EVEN_PARITY</ParityBits>
+        <ActControl>TRC_DRT_AND_RTS</ActControl>
+        <ActTimeOut>10000</ActTimeOut>
+      </ActControlSetting>
+      <PropertyGroups>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D200</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>整経ピニオンギア</Detail>
+              <CurrentValue xsi:type="xsd:float">20</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D202</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ビームギア</Detail>
+              <CurrentValue xsi:type="xsd:float">100</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D204</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>Primary</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D206</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>Secondary</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D208</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速機</Detail>
+              <CurrentValue xsi:type="xsd:float">15</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D214</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ビーム</Detail>
+              <CurrentValue xsi:type="xsd:float">295</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D232</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>最小移動量</Detail>
+              <CurrentValue xsi:type="xsd:float">0.0001</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D270</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>バンド移動</Detail>
+              <CurrentValue xsi:type="xsd:int">100000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D248</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>トラバースHz</Detail>
+              <CurrentValue xsi:type="xsd:int">150000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D244</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>スピードH</Detail>
+              <CurrentValue xsi:type="xsd:int">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D246</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>スピードL</Detail>
+              <CurrentValue xsi:type="xsd:int">100000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D210</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>インバータ加速時間</Detail>
+              <CurrentValue xsi:type="xsd:short">200</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D211</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>インバータ減速時間</Detail>
+              <CurrentValue xsi:type="xsd:short">100</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>設備仕様１</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D226</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>サーボ最高速</Detail>
+              <CurrentValue xsi:type="xsd:int">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D228</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>サーボ加速時間</Detail>
+              <CurrentValue xsi:type="xsd:short">100</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D229</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>サーボ減速時間</Detail>
+              <CurrentValue xsi:type="xsd:short">100</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D610</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>測長ローラー円周長</Detail>
+              <CurrentValue xsi:type="xsd:float">100</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D614</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>トラバース移動可能範囲</Detail>
+              <CurrentValue xsi:type="xsd:float">1640</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D210</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ｲﾝﾊﾞｰﾀ加速時間</Detail>
+              <CurrentValue xsi:type="xsd:int">100</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D211</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ｲﾝﾊﾞｰﾀ減速時間</Detail>
+              <CurrentValue xsi:type="xsd:int">100</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>設備仕様２</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D500</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>メッシュ</Detail>
+              <CurrentValue xsi:type="xsd:float">200</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D502</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>線径</Detail>
+              <CurrentValue xsi:type="xsd:float">0.0499999523</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D504</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>製品幅</Detail>
+              <CurrentValue xsi:type="xsd:float">1016</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D506</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>耳幅合計</Detail>
+              <CurrentValue xsi:type="xsd:float">100</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D508</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ボビン本数</Detail>
+              <CurrentValue xsi:type="xsd:float">200</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D510</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>オサ通し　本数</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D512</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>トラバースピッチ[1/1000]</Detail>
+              <CurrentValue xsi:type="xsd:int">-55</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D514</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>整経長さ</Detail>
+              <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D516</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>整経速度</Detail>
+              <CurrentValue xsi:type="xsd:float">10</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D518</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>バンド隙間</Detail>
+              <CurrentValue xsi:type="xsd:float">2</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>データ設定画面：１（書込み専用）</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D500</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>メッシュ</Detail>
+              <CurrentValue xsi:type="xsd:float">400</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D502</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>線径</Detail>
+              <CurrentValue xsi:type="xsd:float">0.0499999523</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D504</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>製品幅</Detail>
+              <CurrentValue xsi:type="xsd:float">1066</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D506</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>耳幅合計</Detail>
+              <CurrentValue xsi:type="xsd:float">80</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D508</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ボビン本数</Detail>
+              <CurrentValue xsi:type="xsd:float">100</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D510</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>オサ通し　本数</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D512</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>トラバースピッチ</Detail>
+              <CurrentValue xsi:type="xsd:float">7.707142E-44</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D514</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>整経長さ</Detail>
+              <CurrentValue xsi:type="xsd:short">30</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D516</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>整経速度</Detail>
+              <CurrentValue xsi:type="xsd:float">10</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D518</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>バンド隙間</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>データ設定画面：２（書込み専用）</GroupName>
+        </PropertyGroupFormat>
+      </PropertyGroups>
+      <TextFieldGroups>
+        <TextFieldGroupFormat>
+          <Fields />
+        </TextFieldGroupFormat>
+      </TextFieldGroups>
+    </SingleProductFormat>
+  </SingleProductsData>
+  <DefaultData>
+    <RecordName>ブレッドボード機</RecordName>
+    <SerialCode />
+    <Reference>開発用FXのデータ</Reference>
+    <ActControlSetting>
+      <ActHostAddress />
+      <ActProtocolType>PROTOCOL_USBGOT</ActProtocolType>
+      <ActCpuType>FX3UCCPU</ActCpuType>
+      <ActUnitType>FXCPU</ActUnitType>
+      <PortNumber>PORT_1</PortNumber>
+      <BaudRate>BAUDRATE_9600</BaudRate>
+      <DataBits>DATABIT_8</DataBits>
+      <StopBits>STOPBIT_ONE</StopBits>
+      <ParityBits>EVEN_PARITY</ParityBits>
+      <ActControl>TRC_DRT_AND_RTS</ActControl>
+      <ActTimeOut>10000</ActTimeOut>
+    </ActControlSetting>
+    <PropertyGroups>
+      <PropertyGroupFormat>
+        <Fields>
+          <DeviceFieldFormat>
+            <DeviceName>D200</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>整経ピニオンギア</Detail>
+            <CurrentValue xsi:type="xsd:float">30</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D202</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>ビームギア</Detail>
+            <CurrentValue xsi:type="xsd:float">105</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D204</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>Primary</Detail>
+            <CurrentValue xsi:type="xsd:float">32</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D206</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>Secondary</Detail>
+            <CurrentValue xsi:type="xsd:float">40</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D208</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>Worm</Detail>
+            <CurrentValue xsi:type="xsd:float">20</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D210</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>Max rpm</Detail>
+            <CurrentValue xsi:type="xsd:float">3000</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D212</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>モーター回転数</Detail>
+            <CurrentValue xsi:type="xsd:float">0</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D214</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>ビーム外周長</Detail>
+            <CurrentValue xsi:type="xsd:float">0</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D216</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>整経スピード</Detail>
+            <CurrentValue xsi:type="xsd:float">0</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D218</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>P</Detail>
+            <CurrentValue xsi:type="xsd:float">960</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D220</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>S</Detail>
+            <CurrentValue xsi:type="xsd:float">84000</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D222</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>Z</Detail>
+            <CurrentValue xsi:type="xsd:float">87.5</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D224</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>減速比</Detail>
+            <CurrentValue xsi:type="xsd:float">6</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D226</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>ボールねじピッチ</Detail>
+            <CurrentValue xsi:type="xsd:float">6</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D228</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>パルス周波数</Detail>
+            <CurrentValue xsi:type="xsd:float">200000</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D230</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>電子ギア</Detail>
+            <CurrentValue xsi:type="xsd:float">100000</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D232</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>最小制御量</Detail>
+            <CurrentValue xsi:type="xsd:float">0.0001</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D610</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>測長ローラー円周長</Detail>
+            <CurrentValue xsi:type="xsd:float">100</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D614</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>トラバース移動可能範囲</Detail>
+            <CurrentValue xsi:type="xsd:float">2.340168E-42</CurrentValue>
+          </DeviceFieldFormat>
+        </Fields>
+        <GroupName>設備使用</GroupName>
+      </PropertyGroupFormat>
+      <PropertyGroupFormat>
+        <Fields>
+          <DeviceFieldFormat>
+            <DeviceName>D500</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>メッシュ</Detail>
+            <CurrentValue xsi:type="xsd:float">200</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D502</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>線径</Detail>
+            <CurrentValue xsi:type="xsd:float">0.0499999523</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D504</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>製品幅</Detail>
+            <CurrentValue xsi:type="xsd:float">1016</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D506</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>耳幅合計</Detail>
+            <CurrentValue xsi:type="xsd:float">100</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D508</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>ボビン本数</Detail>
+            <CurrentValue xsi:type="xsd:float">200</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D510</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>オサ通し　本数</Detail>
+            <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D512</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>トラバースピッチ</Detail>
+            <CurrentValue xsi:type="xsd:float">7.707142E-44</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D514</DeviceName>
+            <DeviceFormatType>Signed16</DeviceFormatType>
+            <Detail>整経長さ</Detail>
+            <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D516</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>整経速度</Detail>
+            <CurrentValue xsi:type="xsd:float">10</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D518</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>バンド隙間</Detail>
+            <CurrentValue xsi:type="xsd:float">2</CurrentValue>
+          </DeviceFieldFormat>
+        </Fields>
+        <GroupName>データ設定画面：１（書込み専用）</GroupName>
+      </PropertyGroupFormat>
+      <PropertyGroupFormat>
+        <Fields>
+          <DeviceFieldFormat>
+            <DeviceName>R30</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>メッシュ</Detail>
+            <CurrentValue xsi:type="xsd:float">2</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>R32</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>線径</Detail>
+            <CurrentValue xsi:type="xsd:float">2.012497</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>R34</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>製品幅</Detail>
+            <CurrentValue xsi:type="xsd:float">2</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>R36</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>耳幅合計</Detail>
+            <CurrentValue xsi:type="xsd:float">2</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>R38</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>ボビン本数</Detail>
+            <CurrentValue xsi:type="xsd:float">2</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>R40</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>オサ通し　本数</Detail>
+            <CurrentValue xsi:type="xsd:float">2</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>R42</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>トラバースピッチ</Detail>
+            <CurrentValue xsi:type="xsd:float">2.000013</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>R44</DeviceName>
+            <DeviceFormatType>Signed16</DeviceFormatType>
+            <Detail>整経長さ</Detail>
+            <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>R46</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>整経速度</Detail>
+            <CurrentValue xsi:type="xsd:float">2</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>R48</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>バンド隙間</Detail>
+            <CurrentValue xsi:type="xsd:float">2</CurrentValue>
+          </DeviceFieldFormat>
+        </Fields>
+        <GroupName>データ設定：１</GroupName>
+      </PropertyGroupFormat>
+      <PropertyGroupFormat>
+        <Fields>
+          <DeviceFieldFormat>
+            <DeviceName>R60</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>メッシュ</Detail>
+            <CurrentValue xsi:type="xsd:float">2</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>R62</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>線径</Detail>
+            <CurrentValue xsi:type="xsd:float">2.012497</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>R64</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>製品幅</Detail>
+            <CurrentValue xsi:type="xsd:float">2</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>R66</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>耳幅合計</Detail>
+            <CurrentValue xsi:type="xsd:float">2</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>R68</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>ボビン本数</Detail>
+            <CurrentValue xsi:type="xsd:float">2</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>R70</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>オサ通し　本数</Detail>
+            <CurrentValue xsi:type="xsd:float">2</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>R72</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>トラバースピッチ</Detail>
+            <CurrentValue xsi:type="xsd:float">2.000013</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>R74</DeviceName>
+            <DeviceFormatType>Signed16</DeviceFormatType>
+            <Detail>整経長さ</Detail>
+            <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>R76</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>整経速度</Detail>
+            <CurrentValue xsi:type="xsd:float">2</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>R78</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>バンド隙間</Detail>
+            <CurrentValue xsi:type="xsd:float">2</CurrentValue>
+          </DeviceFieldFormat>
+        </Fields>
+        <GroupName>データ設定：２</GroupName>
+      </PropertyGroupFormat>
+    </PropertyGroups>
+    <TextFieldGroups>
+      <TextFieldGroupFormat>
+        <Fields />
+      </TextFieldGroupFormat>
+    </TextFieldGroups>
+  </DefaultData>
+</ProductSettingFormat>

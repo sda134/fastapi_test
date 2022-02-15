@@ -1,0 +1,6 @@
+@echo off
+
+:: C:\Windows ÇÃéñ McAfee ÇÕÇ±Ç±ÇæÇ¡ÇΩÅH
+echo %SystemRoot%
+
+pause

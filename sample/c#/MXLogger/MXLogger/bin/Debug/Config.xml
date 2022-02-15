@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConfigFormat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogFileSaveDirectory>C:\data\programSource\Visual Studio 2017\Projects\MXLogger\MXLogger\bin\Debug\log</LogFileSaveDirectory>
+  <Interval_mSec>1000</Interval_mSec>
+  <ActSetting>
+    <ActHostAddress>192.168.1.1</ActHostAddress>
+    <ActProtocolType>PROTOCOL_USBGOT</ActProtocolType>
+    <ActCpuType>FX3UCCPU</ActCpuType>
+    <ActUnitType>FXCPU</ActUnitType>
+    <PortNumber>PORT_1</PortNumber>
+    <BaudRate>BAUDRATE_9600</BaudRate>
+    <DataBits>DATABIT_7</DataBits>
+    <StopBits>STOPBIT_ONE</StopBits>
+    <ParityBits>EVEN_PARITY</ParityBits>
+    <ActControl>TRC_DTR_OR_RTS</ActControl>
+    <ActTimeOut>10000</ActTimeOut>
+  </ActSetting>
+</ConfigFormat>

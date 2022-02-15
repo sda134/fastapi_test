@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProductSettingFormat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProductName>シーケンサ標準</ProductName>
+  <SingleProductsData>
+    <SingleProductFormat>
+      <RecordName>日時など</RecordName>
+      <SerialCode />
+      <ActControlSetting>
+        <ActHostAddress />
+        <ActProtocolType>PROTOCOL_USBGOT</ActProtocolType>
+        <ActCpuType>FX3UCCPU</ActCpuType>
+        <ActUnitType>FXCPU</ActUnitType>
+        <PortNumber>PORT_1</PortNumber>
+        <BaudRate>BAUDRATE_9600</BaudRate>
+        <DataBits>DATABIT_8</DataBits>
+        <StopBits>STOPBIT_ONE</StopBits>
+        <ParityBits>EVEN_PARITY</ParityBits>
+        <ActControl>TRC_DRT_AND_RTS</ActControl>
+      </ActControlSetting>
+      <PropertyGroups>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D8013</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>秒</Detail>
+              <CurrentValue xsi:type="xsd:short">47</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D8014</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>分</Detail>
+              <CurrentValue xsi:type="xsd:short">47</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D8015</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>時</Detail>
+              <CurrentValue xsi:type="xsd:short">16</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D8016</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>日</Detail>
+              <CurrentValue xsi:type="xsd:short">8</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D8017</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>月</Detail>
+              <CurrentValue xsi:type="xsd:short">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D8018</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>年(西暦下2桁)</Detail>
+              <CurrentValue xsi:type="xsd:short">19</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D8019</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>曜日(0=日曜)</Detail>
+              <CurrentValue xsi:type="xsd:short">2</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>時間</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>M8015</DeviceName>
+              <DeviceFormatType>Bit</DeviceFormatType>
+              <Detail>時計停止および時刻合せ</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>時刻合わせ</GroupName>
+        </PropertyGroupFormat>
+      </PropertyGroups>
+    </SingleProductFormat>
+  </SingleProductsData>
+</ProductSettingFormat>

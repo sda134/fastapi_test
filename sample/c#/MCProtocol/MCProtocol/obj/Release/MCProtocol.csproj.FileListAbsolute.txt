@@ -1,0 +1,6 @@
+C:\data\programSource\Visual Studio 2017\Projects\Mitsubishi_MCProtocol\MCProtocol\bin\Release\MCProtocol.dll
+C:\data\programSource\Visual Studio 2017\Projects\Mitsubishi_MCProtocol\MCProtocol\bin\Release\MCProtocol.pdb
+C:\data\programSource\Visual Studio 2017\Projects\Mitsubishi_MCProtocol\MCProtocol\obj\Release\MCProtocol.csprojAssemblyReference.cache
+C:\data\programSource\Visual Studio 2017\Projects\Mitsubishi_MCProtocol\MCProtocol\obj\Release\MCProtocol.csproj.CoreCompileInputs.cache
+C:\data\programSource\Visual Studio 2017\Projects\Mitsubishi_MCProtocol\MCProtocol\obj\Release\MCProtocol.dll
+C:\data\programSource\Visual Studio 2017\Projects\Mitsubishi_MCProtocol\MCProtocol\obj\Release\MCProtocol.pdb

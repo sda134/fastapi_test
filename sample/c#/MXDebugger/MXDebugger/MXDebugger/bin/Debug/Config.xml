@@ -1,0 +1,1236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConfigFormat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Encorder>
+    <FirstDevice>X0</FirstDevice>
+    <SpeedOfRevolution>1</SpeedOfRevolution>
+    <IsCounterClockwise>true</IsCounterClockwise>
+    <EncoderFormat>GrayCode_Excess76</EncoderFormat>
+    <EncoderBitsCount>_9Bits</EncoderBitsCount>
+    <NumberNotation>Octal</NumberNotation>
+    <Trigger>
+      <PredicationFieldFormat>
+        <DeviceName>M36</DeviceName>
+        <DeviceFormatType>Bit</DeviceFormatType>
+        <CompareType>Equal</CompareType>
+        <Value xsi:type="xsd:short">1</Value>
+        <ConditionType>And</ConditionType>
+      </PredicationFieldFormat>
+    </Trigger>
+  </Encorder>
+  <FieldTables>
+    <LogGroupFormat>
+      <GroupName>運転可能にする為のデバイス</GroupName>
+      <FieldList>
+        <ReverseDeviceFormat>
+          <DeviceName>X55</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>Interlock Run</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X56</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>Interlock Forward</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X57</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>Interlock Reverse</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X11</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>サーボ１ ALM</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X13</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>サーボ２ ALM</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X42</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>ドロッパータテ</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X43</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>ドロッパーヨコ</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X17</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>非常停止ボタン</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M61</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>ヨコ切れ無視</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M59</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>モーター空転</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M146</DeviceName>
+          <ReverseType>Button</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>GOT ヨコセンサー異常キャンセル</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+      </FieldList>
+    </LogGroupFormat>
+    <LogGroupFormat>
+      <GroupName>操作ボタン</GroupName>
+      <FieldList>
+        <ReverseDeviceFormat>
+          <DeviceName>X20</DeviceName>
+          <ReverseType>Button</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>運転ボタン</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X21</DeviceName>
+          <ReverseType>Button</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>停止ボタン</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X22</DeviceName>
+          <ReverseType>Button</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>正寸ボタン</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X23</DeviceName>
+          <ReverseType>Button</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>逆寸ボタン</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X24</DeviceName>
+          <ReverseType>Button</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>手動正転</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X25</DeviceName>
+          <ReverseType>Button</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>手動逆転</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X26</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>巻取り</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X27</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>送り出し</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X17</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>非常停止ボタン</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M36</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>運転中</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+      </FieldList>
+    </LogGroupFormat>
+    <LogGroupFormat>
+      <GroupName>疑似GOT</GroupName>
+      <FieldList>
+        <ReverseDeviceFormat>
+          <DeviceName>M60</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>カンター無視</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M61</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>ヨコ切れ無視</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M62</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>タテ切れ無視</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M63</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>ドロッパ無視</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M64</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>深夜スイッチ</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M77</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>GOT_ブレーキOFF</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M500</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>送りパルス固定</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D220</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>ヨコタイミングIN</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D221</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>ヨコタイミングOUT</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D222</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>逆転禁止：From</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D223</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>逆転禁止：To</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M40</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>異常停止</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D302</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Float</DeviceFormatType>
+          <Detail>メッシュ</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M151</DeviceName>
+          <ReverseType>Button</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>長さカウンタリセット</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+      </FieldList>
+    </LogGroupFormat>
+    <LogGroupFormat>
+      <GroupName>外部機器シミュレート</GroupName>
+      <FieldList>
+        <ReverseDeviceFormat>
+          <DeviceName>X11</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>サーボ１ ALM</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X13</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>サーボ２ ALM</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X15</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>インバーター異常</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X30</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>テンションHI</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X32</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>テンションLo</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X36</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>フィーダー停止</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X40</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>定尺信号</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X42</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>ドロッパー　タテ</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X43</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>ドロッパー　タルミ取り</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X41</DeviceName>
+          <ReverseType>Correspond</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>ヨコ信号</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList>
+            <PredicationFieldFormat>
+              <DeviceName>D56</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <CompareType>GreaterThan</CompareType>
+              <Value xsi:type="xsd:short">285</Value>
+              <ConditionType>And</ConditionType>
+            </PredicationFieldFormat>
+            <PredicationFieldFormat>
+              <DeviceName>D56</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <CompareType>LessThan</CompareType>
+              <Value xsi:type="xsd:short">315</Value>
+              <ConditionType>And</ConditionType>
+            </PredicationFieldFormat>
+          </PredicationList>
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>Y31</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>ブレーキ　リレー</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>Y34</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>ライト赤</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>Y35</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>ライト緑</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>Y36</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>ライト橙</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>Y37</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>ライト青</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+      </FieldList>
+    </LogGroupFormat>
+    <LogGroupFormat>
+      <GroupName>稼働ログ</GroupName>
+      <FieldList>
+        <ReverseDeviceFormat>
+          <DeviceName>M352</DeviceName>
+          <ReverseType>Button</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>ロール稼働率クリア</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D0</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>GOTベース画面</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D326</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Unsigned32</DeviceFormatType>
+          <Detail>ロールカウンタ現在値</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D328</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Unsigned32</DeviceFormatType>
+          <Detail>ロールカウンタ設定値</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M610</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>GOT ロール切替</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D320</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed32</DeviceFormatType>
+          <Detail>10cm カウント</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D900</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Unsigned32</DeviceFormatType>
+          <Detail>ロール稼働率</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D914</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Unsigned32</DeviceFormatType>
+          <Detail>今ｼﾌﾄ稼働率</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D928</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Unsigned32</DeviceFormatType>
+          <Detail>前シフト稼働率</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+      </FieldList>
+    </LogGroupFormat>
+    <LogGroupFormat>
+      <GroupName>停止回数_デバッグ用</GroupName>
+      <FieldList>
+        <ReverseDeviceFormat>
+          <DeviceName>D908</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>ロール　タテ　回数</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D910</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>ロール　ヨコ　回数</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D912</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>ロール　その他　回数</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M340</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>タテ切れ</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M341</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>ヨコ切れ</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M342</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>その他</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D922</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>今ｼﾌﾄ　タテ　回数</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D924</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>今ｼﾌﾄ　ヨコ　回数</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D926</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>今ｼﾌﾄ　その他　回数</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+      </FieldList>
+    </LogGroupFormat>
+    <LogGroupFormat>
+      <GroupName>停止要因　自動判別</GroupName>
+      <FieldList>
+        <ReverseDeviceFormat>
+          <DeviceName>D800</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>タテ切れ</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D801</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>タルミ取り</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D802</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>ヨコ切れ</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D803</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>異常</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D804</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>ロール停止</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D805</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>停止ボタン</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D806</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>非常停止</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D807</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>タテ切れ理由８</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D808</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>保全ボタン</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D809</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>タテ切れ理由10</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+      </FieldList>
+    </LogGroupFormat>
+    <LogGroupFormat>
+      <GroupName>稼働率GOTプログラム確認</GroupName>
+      <FieldList>
+        <ReverseDeviceFormat>
+          <DeviceName>D922</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>今ｼﾌﾄ　停台回数：タテ</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D924</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>今ｼﾌﾄ　停台回数：ヨコ</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D926</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>今ｼﾌﾄ　停台回数：他</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D916</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Unsigned32</DeviceFormatType>
+          <Detail>稼働時間：シフト</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D918</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Unsigned32</DeviceFormatType>
+          <Detail>停台時間：シフト</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M601</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>シフト以内、以下</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D930</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Unsigned32</DeviceFormatType>
+          <Detail>前シフト稼働時間</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D932</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Unsigned32</DeviceFormatType>
+          <Detail>前シフト停台時間</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D150</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>ロール稼働：時</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D152</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D154</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>ロール停台：時</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D156</DeviceName>
+          <ReverseType>Button</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D158</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>今シフト稼働：時</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D160</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D162</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>今シフト停台：時</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D164</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D166</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>前シフト稼働：時</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D168</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D170</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>前シフト停台：時</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M8014</DeviceName>
+          <ReverseType>Button</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D902</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Unsigned32</DeviceFormatType>
+          <Detail>稼働時間：ロール</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D904</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Unsigned32</DeviceFormatType>
+          <Detail>停台時間：ロール</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D908</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Unsigned32</DeviceFormatType>
+          <Detail>ロール　停台回数：タテ</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D910</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Unsigned32</DeviceFormatType>
+          <Detail>ロール　停台回数：ヨコ</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D912</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Unsigned32</DeviceFormatType>
+          <Detail>ロール　停台回数：他</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D934</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>停台回数　前ｼﾌﾄ　合計</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D936</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>停台回数　前ｼﾌﾄ　タテ</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D938</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>停台回数　前ｼﾌﾄ　ヨコ</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D940</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>停台回数　前ｼﾌﾄ　その他</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+      </FieldList>
+    </LogGroupFormat>
+    <LogGroupFormat>
+      <GroupName>PID</GroupName>
+      <FieldList>
+        <ReverseDeviceFormat>
+          <DeviceName>D8260</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>d8260</Detail>
+          <UseInTable>true</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M4</DeviceName>
+          <ReverseType>Button</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>テンション検出　閉口</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M5</DeviceName>
+          <ReverseType>Button</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>テンション検出　開口</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M6</DeviceName>
+          <ReverseType>Button</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>GOT_送りパルス設定</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M8</DeviceName>
+          <ReverseType>Button</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>GOT_巻取りパルス計算</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M9</DeviceName>
+          <ReverseType>Button</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>GOT_サーボパラメータセット</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X30</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>テンションHI</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X32</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>テンションLO</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D500</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>目標ﾃﾝｼｮﾝ</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+      </FieldList>
+    </LogGroupFormat>
+    <LogGroupFormat>
+      <GroupName>GOT 時計設定</GroupName>
+      <FieldList>
+        <ReverseDeviceFormat>
+          <DeviceName>D0</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>GOTベース画面</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M228</DeviceName>
+          <ReverseType>Button</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>GOT 時計設定</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M229</DeviceName>
+          <ReverseType>Button</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>GOT±30秒補正</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D180</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>時計設定：年</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D181</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>時計設定：月</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D182</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>時計設定：日</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D183</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>時計設定：時</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D184</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>時計設定：分</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D185</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>時計設定：秒</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>D187</DeviceName>
+          <ReverseType>TextBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>時計設定：曜日</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+      </FieldList>
+    </LogGroupFormat>
+    <LogGroupFormat>
+      <GroupName>異常原因</GroupName>
+      <FieldList>
+        <ReverseDeviceFormat>
+          <DeviceName>X17</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>非常停止</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X11</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>送り出しサーボ</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X13</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>巻取りサーボ</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X15</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>インバータ</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X30</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>テンションHI</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X32</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>テンションLO</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X35</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>予備停止信号</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X36</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>フィーダー停止</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X37</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Signed16</DeviceFormatType>
+          <Detail>トユトリ</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X41</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>ヨコ信号（センサー異常を起こす為）</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X43</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>ドロッパータルミ</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>X42</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>ドロッパータテ</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M53</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>送り出し計算異常</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M59</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>モーター空転</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M145</DeviceName>
+          <ReverseType>CheckBox</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>ヨコ線センサー異常</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+        <ReverseDeviceFormat>
+          <DeviceName>M146</DeviceName>
+          <ReverseType>Button</ReverseType>
+          <DeviceFormatType>Bit</DeviceFormatType>
+          <Detail>GOT ヨコセンサー異常キャンセル</Detail>
+          <UseInTable>false</UseInTable>
+          <PredicationList />
+        </ReverseDeviceFormat>
+      </FieldList>
+    </LogGroupFormat>
+  </FieldTables>
+  <SimulatorType>SIMULATOR2</SimulatorType>
+  <ActSetting>
+    <ActHostAddress>192.168.1.10</ActHostAddress>
+    <ActProtocolType>PROTOCOL_TCPIP</ActProtocolType>
+    <ActCpuType>FX3UCCPU</ActCpuType>
+    <ActUnitType>SIMULATOR2</ActUnitType>
+    <PortNumber>PORT_1</PortNumber>
+    <BaudRate>BAUDRATE_9600</BaudRate>
+    <DataBits>DATABIT_8</DataBits>
+    <StopBits>STOPBIT_ONE</StopBits>
+    <ParityBits>EVEN_PARITY</ParityBits>
+    <ActControl>TRC_DRT_AND_RTS</ActControl>
+    <ActTimeOut>10000</ActTimeOut>
+  </ActSetting>
+</ConfigFormat>

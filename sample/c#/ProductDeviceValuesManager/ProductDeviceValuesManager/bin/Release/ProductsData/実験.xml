@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProductSettingFormat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProductName>実験</ProductName>
+  <SingleProductsData>
+    <SingleProductFormat>
+      <RecordName>実験01</RecordName>
+      <SerialCode>001</SerialCode>
+      <ActControlSetting>
+        <ActHostAddress>192.168.1.1</ActHostAddress>
+        <ActProtocolType>PROTOCOL_USBGOT</ActProtocolType>
+        <ActCpuType>FX3UCCPU</ActCpuType>
+        <ActUnitType>FXCPU</ActUnitType>
+        <PortNumber>PORT_1</PortNumber>
+        <BaudRate>BAUDRATE_9600</BaudRate>
+        <DataBits>DATABIT_7</DataBits>
+        <StopBits>STOPBIT_ONE</StopBits>
+        <ParityBits>EVEN_PARITY</ParityBits>
+        <ActControl>TRC_DTR_OR_RTS</ActControl>
+      </ActControlSetting>
+      <PropertyGroups>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D50</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>符号付きBIN16</Detail>
+              <CurrentValue xsi:type="xsd:int">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D51</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>符号無しBIN16</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">65535</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D52</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>符号付きBIN32</Detail>
+              <CurrentValue xsi:type="xsd:int">2147483647</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D54</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>符号無しBIN32</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">4294967295</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D56</DeviceName>
+              <DeviceFormatType>BCD16</DeviceFormatType>
+              <Detail>BCD16</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">9998</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D58</DeviceName>
+              <DeviceFormatType>BCD32</DeviceFormatType>
+              <Detail>BCD32</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">99999876</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D60</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>実数</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>実験01</GroupName>
+        </PropertyGroupFormat>
+      </PropertyGroups>
+    </SingleProductFormat>
+  </SingleProductsData>
+  <DefaultData>
+    <ActControlSetting>
+      <ActHostAddress>192.168.1.1</ActHostAddress>
+      <ActProtocolType>PROTOCOL_USBGOT</ActProtocolType>
+      <ActCpuType>FX3UCCPU</ActCpuType>
+      <ActUnitType>FXCPU</ActUnitType>
+      <PortNumber>PORT_1</PortNumber>
+      <BaudRate>BAUDRATE_9600</BaudRate>
+      <DataBits>DATABIT_7</DataBits>
+      <StopBits>STOPBIT_ONE</StopBits>
+      <ParityBits>EVEN_PARITY</ParityBits>
+      <ActControl>TRC_DTR_OR_RTS</ActControl>
+    </ActControlSetting>
+    <PropertyGroups>
+      <PropertyGroupFormat>
+        <Fields>
+          <DeviceFieldFormat>
+            <DeviceName>D50</DeviceName>
+            <DeviceFormatType>Signed16</DeviceFormatType>
+            <Detail>符号付きBIN16</Detail>
+            <CurrentValue xsi:type="xsd:string">0</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D51</DeviceName>
+            <DeviceFormatType>Unsigned16</DeviceFormatType>
+            <Detail>符号無しBIN16</Detail>
+            <CurrentValue xsi:type="xsd:string">0</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D52</DeviceName>
+            <DeviceFormatType>Signed32</DeviceFormatType>
+            <Detail>符号付きBIN32</Detail>
+            <CurrentValue xsi:type="xsd:string">0</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D54</DeviceName>
+            <DeviceFormatType>Unsigned32</DeviceFormatType>
+            <Detail>符号無しBIN32</Detail>
+            <CurrentValue xsi:type="xsd:string">0</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D56</DeviceName>
+            <DeviceFormatType>BCD16</DeviceFormatType>
+            <Detail>BCD16</Detail>
+            <CurrentValue xsi:type="xsd:string">0</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D58</DeviceName>
+            <DeviceFormatType>BCD32</DeviceFormatType>
+            <Detail>BCD32</Detail>
+            <CurrentValue xsi:type="xsd:string">0</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D60</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>実数</Detail>
+            <CurrentValue xsi:type="xsd:string">0</CurrentValue>
+          </DeviceFieldFormat>
+        </Fields>
+        <GroupName>実験01</GroupName>
+      </PropertyGroupFormat>
+    </PropertyGroups>
+  </DefaultData>
+</ProductSettingFormat>

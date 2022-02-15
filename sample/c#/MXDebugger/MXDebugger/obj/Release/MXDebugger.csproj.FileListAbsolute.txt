@@ -1,0 +1,36 @@
+C:\data\programSource\Visual Studio 2017\Projects\MXDebugger\MXDebugger\bin\Release\MXDebugger.exe
+C:\data\programSource\Visual Studio 2017\Projects\MXDebugger\MXDebugger\bin\Release\MXDebugger.pdb
+C:\data\programSource\Visual Studio 2017\Projects\MXDebugger\MXDebugger\bin\Release\Interop.ActProgTypeLib.dll
+C:\data\programSource\Visual Studio 2017\Projects\MXDebugger\MXDebugger\obj\Release\Interop.ActProgTypeLib.dll
+C:\data\programSource\Visual Studio 2017\Projects\MXDebugger\MXDebugger\obj\Release\MXDebugger.csproj.ResolveComReference.cache
+C:\data\programSource\Visual Studio 2017\Projects\MXDebugger\MXDebugger\obj\Release\Mtec.UtilityLibrary.Forms.ListEditDialog_ListView.resources
+C:\data\programSource\Visual Studio 2017\Projects\MXDebugger\MXDebugger\obj\Release\Mtec.UtilityLibrary.Mitsubishi.MXComponent.Forms.MXComponentConfigurationPannel.resources
+C:\data\programSource\Visual Studio 2017\Projects\MXDebugger\MXDebugger\obj\Release\Mtec.Internal.Mitsubishi.MXDebugger.PLCDeviceControlPannel.resources
+C:\data\programSource\Visual Studio 2017\Projects\MXDebugger\MXDebugger\obj\Release\Mtec.Internal.Mitsubishi.MXDebugger.MainDialog.resources
+C:\data\programSource\Visual Studio 2017\Projects\MXDebugger\MXDebugger\obj\Release\Mtec.Internal.Mitsubishi.MXDebugger.Properties.Resources.resources
+C:\data\programSource\Visual Studio 2017\Projects\MXDebugger\MXDebugger\obj\Release\Mtec.Internal.Mitsubishi.MXDebugger.GroupInfoEditDialog.resources
+C:\data\programSource\Visual Studio 2017\Projects\MXDebugger\MXDebugger\obj\Release\Mtec.Internal.Mitsubishi.MXDebugger.GroupListEditDialog.resources
+C:\data\programSource\Visual Studio 2017\Projects\MXDebugger\MXDebugger\obj\Release\Mtec.Internal.Mitsubishi.MXDebugger.PredicateEditDialog.resources
+C:\data\programSource\Visual Studio 2017\Projects\MXDebugger\MXDebugger\obj\Release\Mtec.Internal.Mitsubishi.MXDebugger.SettingDialog.resources
+C:\data\programSource\Visual Studio 2017\Projects\MXDebugger\MXDebugger\obj\Release\MXDebugger.csproj.GenerateResource.cache
+C:\data\programSource\Visual Studio 2017\Projects\MXDebugger\MXDebugger\obj\Release\MXDebugger.csproj.CoreCompileInputs.cache
+C:\data\programSource\Visual Studio 2017\Projects\MXDebugger\MXDebugger\obj\Release\MXDebugger.exe
+C:\data\programSource\Visual Studio 2017\Projects\MXDebugger\MXDebugger\obj\Release\MXDebugger.pdb
+C:\data\programSource\vs\Projects\MXDebugger\MXDebugger\obj\Release\Interop.ActProgTypeLib.dll
+C:\data\programSource\vs\Projects\MXDebugger\MXDebugger\obj\Release\MXDebugger.csproj.ResolveComReference.cache
+C:\data\programSource\vs\Projects\MXDebugger\MXDebugger\obj\Release\Mtec.UtilityLibrary.Forms.ListEditDialog_ListView.resources
+C:\data\programSource\vs\Projects\MXDebugger\MXDebugger\obj\Release\Mtec.UtilityLibrary.Mitsubishi.MXComponent.Forms.MXComponentConfigurationPannel.resources
+C:\data\programSource\vs\Projects\MXDebugger\MXDebugger\obj\Release\Mtec.Internal.Mitsubishi.MXDebugger.PLCDeviceControlPannel.resources
+C:\data\programSource\vs\Projects\MXDebugger\MXDebugger\obj\Release\Mtec.Internal.Mitsubishi.MXDebugger.MainDialog.resources
+C:\data\programSource\vs\Projects\MXDebugger\MXDebugger\obj\Release\Mtec.Internal.Mitsubishi.MXDebugger.Properties.Resources.resources
+C:\data\programSource\vs\Projects\MXDebugger\MXDebugger\obj\Release\Mtec.Internal.Mitsubishi.MXDebugger.GroupInfoEditDialog.resources
+C:\data\programSource\vs\Projects\MXDebugger\MXDebugger\obj\Release\Mtec.Internal.Mitsubishi.MXDebugger.GroupListEditDialog.resources
+C:\data\programSource\vs\Projects\MXDebugger\MXDebugger\obj\Release\Mtec.Internal.Mitsubishi.MXDebugger.PredicateEditDialog.resources
+C:\data\programSource\vs\Projects\MXDebugger\MXDebugger\obj\Release\Mtec.Internal.Mitsubishi.MXDebugger.SettingDialog.resources
+C:\data\programSource\vs\Projects\MXDebugger\MXDebugger\obj\Release\MXDebugger.csproj.GenerateResource.cache
+C:\data\programSource\vs\Projects\MXDebugger\MXDebugger\obj\Release\MXDebugger.csproj.CoreCompileInputs.cache
+C:\data\programSource\vs\Projects\MXDebugger\MXDebugger\obj\Release\MXDebugger.exe
+C:\data\programSource\vs\Projects\MXDebugger\MXDebugger\obj\Release\MXDebugger.pdb
+C:\data\programSource\vs\Projects\MXDebugger\MXDebugger\bin\Release\MXDebugger.exe
+C:\data\programSource\vs\Projects\MXDebugger\MXDebugger\bin\Release\MXDebugger.pdb
+C:\data\programSource\vs\Projects\MXDebugger\MXDebugger\bin\Release\Interop.ActProgTypeLib.dll

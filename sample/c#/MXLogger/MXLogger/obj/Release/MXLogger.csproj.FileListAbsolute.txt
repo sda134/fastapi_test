@@ -1,0 +1,16 @@
+C:\data\programSource\Visual Studio 2017\Projects\MXLogger\MXLogger\bin\Release\MXLogger.exe
+C:\data\programSource\Visual Studio 2017\Projects\MXLogger\MXLogger\bin\Release\MXLogger.pdb
+C:\data\programSource\Visual Studio 2017\Projects\MXLogger\MXLogger\bin\Release\Interop.ActProgTypeLib.dll
+C:\data\programSource\Visual Studio 2017\Projects\MXLogger\MXLogger\obj\Release\Interop.ActProgTypeLib.dll
+C:\data\programSource\Visual Studio 2017\Projects\MXLogger\MXLogger\obj\Release\MXLogger.csproj.ResolveComReference.cache
+C:\data\programSource\Visual Studio 2017\Projects\MXLogger\MXLogger\obj\Release\Mtec.Internal.Mitsubishi.MXLogger.MainDialog.resources
+C:\data\programSource\Visual Studio 2017\Projects\MXLogger\MXLogger\obj\Release\Mtec.Internal.Mitsubishi.MXLogger.Properties.Resources.resources
+C:\data\programSource\Visual Studio 2017\Projects\MXLogger\MXLogger\obj\Release\Mtec.Internal.Mitsubishi.MXLogger.GroupInfoEditDialog.resources
+C:\data\programSource\Visual Studio 2017\Projects\MXLogger\MXLogger\obj\Release\Mtec.Internal.Mitsubishi.MXLogger.GroupOrderEditDialog.resources
+C:\data\programSource\Visual Studio 2017\Projects\MXLogger\MXLogger\obj\Release\Mtec.UtilityLibrary.Forms.ListOrderEditDialog.resources
+C:\data\programSource\Visual Studio 2017\Projects\MXLogger\MXLogger\obj\Release\Mtec.Internal.Mitsubishi.MXLogger.SettingDialog.resources
+C:\data\programSource\Visual Studio 2017\Projects\MXLogger\MXLogger\obj\Release\MXLogger.csproj.GenerateResource.cache
+C:\data\programSource\Visual Studio 2017\Projects\MXLogger\MXLogger\obj\Release\MXLogger.csproj.CoreCompileInputs.cache
+C:\data\programSource\Visual Studio 2017\Projects\MXLogger\MXLogger\obj\Release\MXLogger.exe
+C:\data\programSource\Visual Studio 2017\Projects\MXLogger\MXLogger\obj\Release\MXLogger.pdb
+C:\data\programSource\Visual Studio 2017\Projects\MXLogger\MXLogger\obj\Release\Mtec.UtilityLibrary.Mitsubishi.MXComponent.Forms.MXComponentConfigurationPannel.resources

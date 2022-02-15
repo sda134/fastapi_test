@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProductSettingFormat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProductName>槌屋 - 試織機</ProductName>
+  <SingleProductsData>
+    <SingleProductFormat>
+      <RecordName>試織機01</RecordName>
+      <SerialCode>TT19X077</SerialCode>
+      <Reference />
+      <ActControlSetting>
+        <ActHostAddress />
+        <ActProtocolType>PROTOCOL_USBGOT</ActProtocolType>
+        <ActCpuType>FX3UCCPU</ActCpuType>
+        <ActUnitType>FXCPU</ActUnitType>
+        <PortNumber>PORT_1</PortNumber>
+        <BaudRate>BAUDRATE_9600</BaudRate>
+        <DataBits>DATABIT_8</DataBits>
+        <StopBits>STOPBIT_ONE</StopBits>
+        <ParityBits>EVEN_PARITY</ParityBits>
+        <ActControl>TRC_DRT_AND_RTS</ActControl>
+        <ActTimeOut>10000</ActTimeOut>
+      </ActControlSetting>
+      <PropertyGroups>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D1000</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ローラー径</Detail>
+              <CurrentValue xsi:type="xsd:float">140000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D1004</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比１</Detail>
+              <CurrentValue xsi:type="xsd:float">2</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D1006</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比２</Detail>
+              <CurrentValue xsi:type="xsd:float">36</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D1008</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>モーター分解能</Detail>
+              <CurrentValue xsi:type="xsd:float">1000</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>電気設定</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D200</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>ローラー径</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">20000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D208</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>バイアス速度Hz</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">1000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D229</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D248</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">100</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D249</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">100</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName />
+        </PropertyGroupFormat>
+      </PropertyGroups>
+      <TextFieldGroups>
+        <TextFieldGroupFormat>
+          <Fields />
+        </TextFieldGroupFormat>
+      </TextFieldGroups>
+    </SingleProductFormat>
+  </SingleProductsData>
+</ProductSettingFormat>

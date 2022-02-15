@@ -1,0 +1,3865 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProductSettingFormat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProductName>MWL織機</ProductName>
+  <SingleProductsData>
+    <SingleProductFormat>
+      <RecordName>NBCメタルメッシュ一次#1</RecordName>
+      <SerialCode>39464900A</SerialCode>
+      <ActControlSetting>
+        <ActHostAddress />
+        <ActProtocolType>PROTOCOL_USBGOT</ActProtocolType>
+        <ActCpuType>FX3UCCPU</ActCpuType>
+        <ActUnitType>FXCPU</ActUnitType>
+        <PortNumber>PORT_1</PortNumber>
+        <BaudRate>BAUDRATE_9600</BaudRate>
+        <DataBits>DATABIT_8</DataBits>
+        <StopBits>STOPBIT_ONE</StopBits>
+        <ParityBits>EVEN_PARITY</ParityBits>
+        <ActControl>TRC_DRT_AND_RTS</ActControl>
+        <ActTimeOut>10000</ActTimeOut>
+        <ActIONumber>1023</ActIONumber>
+        <ActUnitNumber>0</ActUnitNumber>
+        <ActDestinationPortNumber>0</ActDestinationPortNumber>
+        <ActDestinationIONumber>0</ActDestinationIONumber>
+      </ActControlSetting>
+      <PropertyGroups>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D202</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>手動スピード</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D204</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>連動スピード</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">150000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D330</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーフェス径</Detail>
+              <CurrentValue xsi:type="xsd:float">225</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D332</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比</Detail>
+              <CurrentValue xsi:type="xsd:float">6141.176</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D334</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーボパルス</Detail>
+              <CurrentValue xsi:type="xsd:float">4000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D250</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D252</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">100</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D253</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">100</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D254</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>バイアス速度</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D200</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>運転速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>巻取り</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D212</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>手動スピード</Detail>
+              <CurrentValue xsi:type="xsd:int">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D214</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>連動スピード</Detail>
+              <CurrentValue xsi:type="xsd:int">150000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D306</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比</Detail>
+              <CurrentValue xsi:type="xsd:float">8181.818</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D308</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーボパルス</Detail>
+              <CurrentValue xsi:type="xsd:float">4000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D256</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D258</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+              <CurrentValue xsi:type="xsd:int">100</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D259</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+              <CurrentValue xsi:type="xsd:int">100</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D255</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>バイアス速度</Detail>
+              <CurrentValue xsi:type="xsd:int">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D210</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>運転速度</Detail>
+              <CurrentValue xsi:type="xsd:string">200000</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>送り出し</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D510</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>AD平均回数</Detail>
+              <CurrentValue xsi:type="xsd:int">5</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D542</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>比例ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:float">0.6</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D544</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>積分ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:float">0.35</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D546</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>微分ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:float">0.06</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D270</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>変化上限</Detail>
+              <CurrentValue xsi:type="xsd:int">2000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D272</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>変化下限</Detail>
+              <CurrentValue xsi:type="xsd:int">-2000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D300</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ベース割合</Detail>
+              <CurrentValue xsi:type="xsd:float">0.7</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D274</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ビーム径補正値</Detail>
+              <CurrentValue xsi:type="xsd:float">1.1</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>PID</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D224</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>停止タイミング</Detail>
+              <CurrentValue xsi:type="xsd:int">90</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D220</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヨコ糸：From</Detail>
+              <CurrentValue xsi:type="xsd:int">270</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D221</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヨコ糸：To</Detail>
+              <CurrentValue xsi:type="xsd:int">310</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D222</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>逆転：From</Detail>
+              <CurrentValue xsi:type="xsd:int">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D223</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>逆転：To</Detail>
+              <CurrentValue xsi:type="xsd:int">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D232</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>巻取り正転補正係数</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D234</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>巻取り逆転補正係数</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D282</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ボタン切り替え</Detail>
+              <CurrentValue xsi:type="xsd:int">210</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D280</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>深夜SW</Detail>
+              <CurrentValue xsi:type="xsd:int">150</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D281</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>冷却ファン</Detail>
+              <CurrentValue xsi:type="xsd:int">300</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D336</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>エンコーダー</Detail>
+              <CurrentValue xsi:type="xsd:float">10</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>Setting 画面</GroupName>
+        </PropertyGroupFormat>
+      </PropertyGroups>
+      <TextFieldGroups />
+    </SingleProductFormat>
+    <SingleProductFormat>
+      <RecordName>ヒロ１次</RecordName>
+      <SerialCode>39252500A</SerialCode>
+      <Reference>中央手前</Reference>
+      <ActControlSetting>
+        <ActHostAddress />
+        <ActProtocolType>PROTOCOL_USBGOT</ActProtocolType>
+        <ActCpuType>FX3UCCPU</ActCpuType>
+        <ActUnitType>FXCPU</ActUnitType>
+        <PortNumber>PORT_1</PortNumber>
+        <BaudRate>BAUDRATE_9600</BaudRate>
+        <DataBits>DATABIT_8</DataBits>
+        <StopBits>STOPBIT_ONE</StopBits>
+        <ParityBits>EVEN_PARITY</ParityBits>
+        <ActControl>TRC_DRT_AND_RTS</ActControl>
+        <ActTimeOut>10000</ActTimeOut>
+        <ActIONumber>1023</ActIONumber>
+        <ActUnitNumber>0</ActUnitNumber>
+        <ActDestinationPortNumber>0</ActDestinationPortNumber>
+        <ActDestinationIONumber>0</ActDestinationIONumber>
+      </ActControlSetting>
+      <PropertyGroups>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D202</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>手動スピード</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">100000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D204</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>連動スピード</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">50000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D330</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーフェス径</Detail>
+              <CurrentValue xsi:type="xsd:float">225</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D332</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比</Detail>
+              <CurrentValue xsi:type="xsd:float">5218.487</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D334</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーボパルス</Detail>
+              <CurrentValue xsi:type="xsd:float">4000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D250</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D252</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">10</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D253</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">10</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D254</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>バイアス速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D200</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>運転速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>巻取り</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D212</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>手動スピード</Detail>
+              <CurrentValue xsi:type="xsd:int">100000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D214</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>連動スピード</Detail>
+              <CurrentValue xsi:type="xsd:int">50000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D306</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比</Detail>
+              <CurrentValue xsi:type="xsd:float">10636.3633</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D308</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーボパルス</Detail>
+              <CurrentValue xsi:type="xsd:float">4000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D256</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D258</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+              <CurrentValue xsi:type="xsd:short">10</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D259</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+              <CurrentValue xsi:type="xsd:short">10</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D255</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>バイアス速度</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D210</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>運転速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>送り出し</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D510</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>AD平均回数</Detail>
+              <CurrentValue xsi:type="xsd:int">5</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D542</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>比例ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">800</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D544</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>積分ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">250</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D546</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>微分ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D270</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>変化上限</Detail>
+              <CurrentValue xsi:type="xsd:int">2000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D272</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>変化下限</Detail>
+              <CurrentValue xsi:type="xsd:int">-2000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D300</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ベース割合</Detail>
+              <CurrentValue xsi:type="xsd:float">0.7</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D274</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ビーム径補正値</Detail>
+              <CurrentValue xsi:type="xsd:float">1.1</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>PID</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D224</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>停止タイミング</Detail>
+              <CurrentValue xsi:type="xsd:short">40</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D220</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヨコ糸：From</Detail>
+              <CurrentValue xsi:type="xsd:short">285</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D221</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヨコ糸：To</Detail>
+              <CurrentValue xsi:type="xsd:short">315</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D222</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>逆転：From</Detail>
+              <CurrentValue xsi:type="xsd:short">240</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D223</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>逆転：To</Detail>
+              <CurrentValue xsi:type="xsd:short">270</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D232</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>巻取り正転補正係数</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D234</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>巻取り逆転補正係数</Detail>
+              <CurrentValue xsi:type="xsd:float">0.8</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D282</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ボタン切り替え</Detail>
+              <CurrentValue xsi:type="xsd:short">10</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D280</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>深夜SW</Detail>
+              <CurrentValue xsi:type="xsd:short">600</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D281</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>冷却ファン</Detail>
+              <CurrentValue xsi:type="xsd:short">300</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D336</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>エンコーダー</Detail>
+              <CurrentValue xsi:type="xsd:float">10</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>Setting 画面</GroupName>
+        </PropertyGroupFormat>
+      </PropertyGroups>
+      <TextFieldGroups />
+    </SingleProductFormat>
+    <SingleProductFormat>
+      <RecordName>ヒロ２次_001</RecordName>
+      <SerialCode>39252500C</SerialCode>
+      <Reference>右手前</Reference>
+      <ActControlSetting>
+        <ActHostAddress />
+        <ActProtocolType>PROTOCOL_USBGOT</ActProtocolType>
+        <ActCpuType>FX3UCCPU</ActCpuType>
+        <ActUnitType>FXCPU</ActUnitType>
+        <PortNumber>PORT_1</PortNumber>
+        <BaudRate>BAUDRATE_9600</BaudRate>
+        <DataBits>DATABIT_8</DataBits>
+        <StopBits>STOPBIT_ONE</StopBits>
+        <ParityBits>EVEN_PARITY</ParityBits>
+        <ActControl>TRC_DRT_AND_RTS</ActControl>
+        <ActTimeOut>10000</ActTimeOut>
+        <ActIONumber>1023</ActIONumber>
+        <ActUnitNumber>0</ActUnitNumber>
+        <ActDestinationPortNumber>0</ActDestinationPortNumber>
+        <ActDestinationIONumber>0</ActDestinationIONumber>
+      </ActControlSetting>
+      <PropertyGroups>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D202</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>手動スピード</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D204</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>連動スピード</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D330</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーフェス径</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D332</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D334</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーボパルス</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D250</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D252</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D253</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D254</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>バイアス速度</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D200</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>運転速度</Detail>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>巻取り</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D212</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>手動スピード</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D214</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>連動スピード</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D306</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D308</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーボパルス</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D256</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D258</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D259</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D255</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>バイアス速度</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D210</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>運転速度</Detail>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>送り出し</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D510</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>AD平均回数</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D542</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>比例ゲイン</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D544</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>積分ゲイン</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D546</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>微分ゲイン</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D270</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>変化上限</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D272</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>変化下限</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D300</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ベース割合</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D274</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ビーム径補正値</Detail>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>PID</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D224</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>停止タイミング</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D220</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヨコ糸：From</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D221</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヨコ糸：To</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D222</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>逆転：From</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D223</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>逆転：To</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D232</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>巻取り正転補正係数</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D234</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>巻取り逆転補正係数</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D282</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ボタン切り替え</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D280</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>深夜SW</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D281</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>冷却ファン</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D336</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>エンコーダー</Detail>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>Setting 画面</GroupName>
+        </PropertyGroupFormat>
+      </PropertyGroups>
+      <TextFieldGroups />
+    </SingleProductFormat>
+    <SingleProductFormat>
+      <RecordName>ヒロ２次_002</RecordName>
+      <SerialCode>39252500D</SerialCode>
+      <Reference>右奥</Reference>
+      <ActControlSetting>
+        <ActHostAddress />
+        <ActProtocolType>PROTOCOL_USBGOT</ActProtocolType>
+        <ActCpuType>FX3UCCPU</ActCpuType>
+        <ActUnitType>FXCPU</ActUnitType>
+        <PortNumber>PORT_1</PortNumber>
+        <BaudRate>BAUDRATE_9600</BaudRate>
+        <DataBits>DATABIT_8</DataBits>
+        <StopBits>STOPBIT_ONE</StopBits>
+        <ParityBits>EVEN_PARITY</ParityBits>
+        <ActControl>TRC_DRT_AND_RTS</ActControl>
+        <ActTimeOut>10000</ActTimeOut>
+        <ActIONumber>1023</ActIONumber>
+        <ActUnitNumber>0</ActUnitNumber>
+        <ActDestinationPortNumber>0</ActDestinationPortNumber>
+        <ActDestinationIONumber>0</ActDestinationIONumber>
+      </ActControlSetting>
+      <PropertyGroups>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D202</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>手動スピード</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D204</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>連動スピード</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D330</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーフェス径</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D332</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D334</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーボパルス</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D250</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D252</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D253</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D254</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>バイアス速度</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D200</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>運転速度</Detail>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>巻取り</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D212</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>手動スピード</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D214</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>連動スピード</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D306</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D308</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーボパルス</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D256</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D258</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D259</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D255</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>バイアス速度</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D210</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>運転速度</Detail>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>送り出し</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D510</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>AD平均回数</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D542</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>比例ゲイン</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D544</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>積分ゲイン</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D546</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>微分ゲイン</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D270</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>変化上限</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D272</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>変化下限</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D300</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ベース割合</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D274</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ビーム径補正値</Detail>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>PID</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D224</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>停止タイミング</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D220</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヨコ糸：From</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D221</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヨコ糸：To</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D222</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>逆転：From</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D223</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>逆転：To</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D232</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>巻取り正転補正係数</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D234</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>巻取り逆転補正係数</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D282</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ボタン切り替え</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D280</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>深夜SW</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D281</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>冷却ファン</Detail>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D336</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>エンコーダー</Detail>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>Setting 画面</GroupName>
+        </PropertyGroupFormat>
+      </PropertyGroups>
+      <TextFieldGroups />
+    </SingleProductFormat>
+    <SingleProductFormat>
+      <RecordName>ヒロ２次_003</RecordName>
+      <SerialCode>39252500E</SerialCode>
+      <Reference>中央奥</Reference>
+      <ActControlSetting>
+        <ActHostAddress />
+        <ActProtocolType>PROTOCOL_USBGOT</ActProtocolType>
+        <ActCpuType>FX3UCCPU</ActCpuType>
+        <ActUnitType>FXCPU</ActUnitType>
+        <PortNumber>PORT_1</PortNumber>
+        <BaudRate>BAUDRATE_9600</BaudRate>
+        <DataBits>DATABIT_8</DataBits>
+        <StopBits>STOPBIT_ONE</StopBits>
+        <ParityBits>EVEN_PARITY</ParityBits>
+        <ActControl>TRC_DRT_AND_RTS</ActControl>
+        <ActTimeOut>10000</ActTimeOut>
+        <ActIONumber>1023</ActIONumber>
+        <ActUnitNumber>0</ActUnitNumber>
+        <ActDestinationPortNumber>0</ActDestinationPortNumber>
+        <ActDestinationIONumber>0</ActDestinationIONumber>
+      </ActControlSetting>
+      <PropertyGroups>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D202</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>手動スピード</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">100000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D204</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>連動スピード</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">150000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D330</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーフェス径</Detail>
+              <CurrentValue xsi:type="xsd:float">225</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D332</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比</Detail>
+              <CurrentValue xsi:type="xsd:float">5218.487</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D334</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーボパルス</Detail>
+              <CurrentValue xsi:type="xsd:float">4000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D250</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D252</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D253</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D254</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>バイアス速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D200</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>運転速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>巻取り</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D212</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>手動スピード</Detail>
+              <CurrentValue xsi:type="xsd:int">100000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D214</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>連動スピード</Detail>
+              <CurrentValue xsi:type="xsd:int">150000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D306</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比</Detail>
+              <CurrentValue xsi:type="xsd:float">10636.3633</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D308</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーボパルス</Detail>
+              <CurrentValue xsi:type="xsd:float">4000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D256</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D258</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+              <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D259</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+              <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D255</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>バイアス速度</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D210</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>運転速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>送り出し</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D510</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>AD平均回数</Detail>
+              <CurrentValue xsi:type="xsd:int">5</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D542</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>比例ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">800</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D544</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>積分ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">250</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D546</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>微分ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D270</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>変化上限</Detail>
+              <CurrentValue xsi:type="xsd:int">2000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D272</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>変化下限</Detail>
+              <CurrentValue xsi:type="xsd:int">-2000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D300</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ベース割合</Detail>
+              <CurrentValue xsi:type="xsd:float">0.7</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D274</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ビーム径補正値</Detail>
+              <CurrentValue xsi:type="xsd:float">1.1</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>PID</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D224</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>停止タイミング</Detail>
+              <CurrentValue xsi:type="xsd:short">20</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D220</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヨコ糸：From</Detail>
+              <CurrentValue xsi:type="xsd:short">300</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D221</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヨコ糸：To</Detail>
+              <CurrentValue xsi:type="xsd:short">315</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D222</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>逆転：From</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D223</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>逆転：To</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D232</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>巻取り正転補正係数</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D234</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>巻取り逆転補正係数</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D282</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ボタン切り替え</Detail>
+              <CurrentValue xsi:type="xsd:short">15</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D280</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>深夜SW</Detail>
+              <CurrentValue xsi:type="xsd:short">900</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D281</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>冷却ファン</Detail>
+              <CurrentValue xsi:type="xsd:short">750</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D336</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>エンコーダー</Detail>
+              <CurrentValue xsi:type="xsd:float">10</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>Setting 画面</GroupName>
+        </PropertyGroupFormat>
+      </PropertyGroups>
+      <TextFieldGroups />
+    </SingleProductFormat>
+    <SingleProductFormat>
+      <RecordName>ヒロ２次_004</RecordName>
+      <SerialCode>39252500F</SerialCode>
+      <Reference>トイレ前</Reference>
+      <ActControlSetting>
+        <ActHostAddress />
+        <ActProtocolType>PROTOCOL_USBGOT</ActProtocolType>
+        <ActCpuType>FX3UCCPU</ActCpuType>
+        <ActUnitType>FXCPU</ActUnitType>
+        <PortNumber>PORT_1</PortNumber>
+        <BaudRate>BAUDRATE_9600</BaudRate>
+        <DataBits>DATABIT_8</DataBits>
+        <StopBits>STOPBIT_ONE</StopBits>
+        <ParityBits>EVEN_PARITY</ParityBits>
+        <ActControl>TRC_DRT_AND_RTS</ActControl>
+        <ActTimeOut>10000</ActTimeOut>
+        <ActIONumber>1023</ActIONumber>
+        <ActUnitNumber>0</ActUnitNumber>
+        <ActDestinationPortNumber>0</ActDestinationPortNumber>
+        <ActDestinationIONumber>0</ActDestinationIONumber>
+      </ActControlSetting>
+      <PropertyGroups>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D202</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>手動スピード</Detail>
+              <CurrentValue xsi:type="xsd:int">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D204</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>連動スピード</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D330</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーフェス径</Detail>
+              <CurrentValue xsi:type="xsd:float">225</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D332</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比</Detail>
+              <CurrentValue xsi:type="xsd:float">6141.176</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D334</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーボパルス</Detail>
+              <CurrentValue xsi:type="xsd:float">4000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D250</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D252</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+              <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D253</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+              <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D254</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>バイアス速度</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D200</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>運転速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">1</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>巻取り</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D212</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>手動スピード</Detail>
+              <CurrentValue xsi:type="xsd:int">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D214</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>連動スピード</Detail>
+              <CurrentValue xsi:type="xsd:int">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D306</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比</Detail>
+              <CurrentValue xsi:type="xsd:float">8181.818</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D308</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーボパルス</Detail>
+              <CurrentValue xsi:type="xsd:float">4000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D256</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+              <CurrentValue xsi:type="xsd:int">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D258</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+              <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D259</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+              <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D255</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>バイアス速度</Detail>
+              <CurrentValue xsi:type="xsd:int">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D210</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>運転時間</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>送り出し</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D510</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>AD平均回数</Detail>
+              <CurrentValue xsi:type="xsd:int">5</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D542</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>比例ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:int">600</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D544</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>積分ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:int">35</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D546</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>微分ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:int">60</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D270</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>変化上限</Detail>
+              <CurrentValue xsi:type="xsd:int">2000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D272</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>変化下限</Detail>
+              <CurrentValue xsi:type="xsd:int">-2000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D300</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ベース割合</Detail>
+              <CurrentValue xsi:type="xsd:float">0.7</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D274</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ビーム径補正値</Detail>
+              <CurrentValue xsi:type="xsd:float">1.1</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>PID</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D224</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>停止タイミング</Detail>
+              <CurrentValue xsi:type="xsd:int">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D220</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヨコ糸：From</Detail>
+              <CurrentValue xsi:type="xsd:int">270</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D221</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヨコ糸：To</Detail>
+              <CurrentValue xsi:type="xsd:int">310</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D222</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>逆転：From</Detail>
+              <CurrentValue xsi:type="xsd:int">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D223</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>逆転：To</Detail>
+              <CurrentValue xsi:type="xsd:int">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D232</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>巻取り正転補正係数</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D234</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>巻取り逆転補正係数</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D282</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ボタン切り替え</Detail>
+              <CurrentValue xsi:type="xsd:int">210</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D280</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>深夜SW</Detail>
+              <CurrentValue xsi:type="xsd:int">150</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D281</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>冷却ファン</Detail>
+              <CurrentValue xsi:type="xsd:int">300</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D336</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>エンコーダー</Detail>
+              <CurrentValue xsi:type="xsd:float">10</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>Setting 画面</GroupName>
+        </PropertyGroupFormat>
+      </PropertyGroups>
+      <TextFieldGroups>
+        <TextFieldGroupFormat>
+          <Fields />
+        </TextFieldGroupFormat>
+      </TextFieldGroups>
+    </SingleProductFormat>
+    <SingleProductFormat>
+      <RecordName>関西タイ</RecordName>
+      <SerialCode />
+      <Reference />
+      <ActControlSetting>
+        <ActHostAddress />
+        <ActProtocolType>PROTOCOL_USBGOT</ActProtocolType>
+        <ActCpuType>FX3UCCPU</ActCpuType>
+        <ActUnitType>FXCPU</ActUnitType>
+        <PortNumber>PORT_1</PortNumber>
+        <BaudRate>BAUDRATE_9600</BaudRate>
+        <DataBits>DATABIT_8</DataBits>
+        <StopBits>STOPBIT_ONE</StopBits>
+        <ParityBits>EVEN_PARITY</ParityBits>
+        <ActControl>TRC_DRT_AND_RTS</ActControl>
+        <ActTimeOut>10000</ActTimeOut>
+        <ActIONumber>1023</ActIONumber>
+        <ActUnitNumber>0</ActUnitNumber>
+        <ActDestinationPortNumber>0</ActDestinationPortNumber>
+        <ActDestinationIONumber>0</ActDestinationIONumber>
+      </ActControlSetting>
+      <PropertyGroups>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D202</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>手動スピード</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">150000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D204</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>連動スピード</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">100000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D330</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーフェス径</Detail>
+              <CurrentValue xsi:type="xsd:float">225</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D332</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比</Detail>
+              <CurrentValue xsi:type="xsd:float">5218.487</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D334</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーボパルス</Detail>
+              <CurrentValue xsi:type="xsd:float">4000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D250</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D252</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">100</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D253</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">100</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D254</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>バイアス速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D200</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>運転速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>巻取り</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D212</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>手動スピード</Detail>
+              <CurrentValue xsi:type="xsd:int">150000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D214</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>連動スピード</Detail>
+              <CurrentValue xsi:type="xsd:int">100000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D306</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比</Detail>
+              <CurrentValue xsi:type="xsd:float">9163.636</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D308</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーボパルス</Detail>
+              <CurrentValue xsi:type="xsd:float">4000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D256</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D258</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+              <CurrentValue xsi:type="xsd:short">100</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D259</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+              <CurrentValue xsi:type="xsd:short">100</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D255</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>バイアス速度</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D210</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>運転速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>送り出し</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D510</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>AD平均回数</Detail>
+              <CurrentValue xsi:type="xsd:int">5</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D542</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>比例ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">700</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D544</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>積分ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">350</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D546</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>微分ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D270</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>変化上限</Detail>
+              <CurrentValue xsi:type="xsd:int">4000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D272</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>変化下限</Detail>
+              <CurrentValue xsi:type="xsd:int">-4000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D300</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ベース割合</Detail>
+              <CurrentValue xsi:type="xsd:float">0.7</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D274</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ビーム径補正値</Detail>
+              <CurrentValue xsi:type="xsd:float">1.15</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>PID</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D224</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>停止タイミング</Detail>
+              <CurrentValue xsi:type="xsd:short">40</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D220</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヨコ糸：From</Detail>
+              <CurrentValue xsi:type="xsd:short">280</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D221</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヨコ糸：To</Detail>
+              <CurrentValue xsi:type="xsd:short">320</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D222</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>逆転：From</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D223</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>逆転：To</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D232</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>巻取り正転補正係数</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D234</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>巻取り逆転補正係数</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D282</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ボタン切り替え</Detail>
+              <CurrentValue xsi:type="xsd:short">10</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D280</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>深夜SW</Detail>
+              <CurrentValue xsi:type="xsd:short">900</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D281</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>冷却ファン</Detail>
+              <CurrentValue xsi:type="xsd:short">150</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D336</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>エンコーダー</Detail>
+              <CurrentValue xsi:type="xsd:float">10</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D504</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>テンション　スケール値</Detail>
+              <CurrentValue xsi:type="xsd:float">2.732532E-42</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>Setting 画面</GroupName>
+        </PropertyGroupFormat>
+      </PropertyGroups>
+      <TextFieldGroups />
+    </SingleProductFormat>
+    <SingleProductFormat>
+      <RecordName>PWL180</RecordName>
+      <SerialCode />
+      <Reference />
+      <ActControlSetting>
+        <ActHostAddress />
+        <ActProtocolType>PROTOCOL_USBGOT</ActProtocolType>
+        <ActCpuType>FX3UCCPU</ActCpuType>
+        <ActUnitType>FXCPU</ActUnitType>
+        <PortNumber>PORT_1</PortNumber>
+        <BaudRate>BAUDRATE_9600</BaudRate>
+        <DataBits>DATABIT_8</DataBits>
+        <StopBits>STOPBIT_ONE</StopBits>
+        <ParityBits>EVEN_PARITY</ParityBits>
+        <ActControl>TRC_DRT_AND_RTS</ActControl>
+        <ActTimeOut>10000</ActTimeOut>
+        <ActIONumber>1023</ActIONumber>
+        <ActUnitNumber>0</ActUnitNumber>
+        <ActDestinationPortNumber>0</ActDestinationPortNumber>
+        <ActDestinationIONumber>0</ActDestinationIONumber>
+      </ActControlSetting>
+      <PropertyGroups>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D202</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>手動スピード</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">100000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D204</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>連動スピード</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">150000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D330</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーフェス径</Detail>
+              <CurrentValue xsi:type="xsd:float">218</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D332</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比</Detail>
+              <CurrentValue xsi:type="xsd:float">5823.529</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D334</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーボパルス</Detail>
+              <CurrentValue xsi:type="xsd:float">4000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D250</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D252</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D253</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D254</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>バイアス速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D200</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>運転速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>巻取り</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D212</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>手動スピード</Detail>
+              <CurrentValue xsi:type="xsd:int">100000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D214</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>連動スピード</Detail>
+              <CurrentValue xsi:type="xsd:int">150000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D306</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比</Detail>
+              <CurrentValue xsi:type="xsd:float">8035.714</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D308</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーボパルス</Detail>
+              <CurrentValue xsi:type="xsd:float">4000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D256</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D258</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+              <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D259</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+              <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D255</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>バイアス速度</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D210</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>運転速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>送り出し</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D510</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>AD平均回数</Detail>
+              <CurrentValue xsi:type="xsd:int">5</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D542</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>比例ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">800</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D544</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>積分ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">250</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D546</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>微分ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D270</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>変化上限</Detail>
+              <CurrentValue xsi:type="xsd:int">2000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D272</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>変化下限</Detail>
+              <CurrentValue xsi:type="xsd:int">-2000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D300</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ベース割合</Detail>
+              <CurrentValue xsi:type="xsd:float">0.7</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D274</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ビーム径補正値</Detail>
+              <CurrentValue xsi:type="xsd:float">1.1</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>PID</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D224</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>停止タイミング</Detail>
+              <CurrentValue xsi:type="xsd:short">20</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D220</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヨコ糸：From</Detail>
+              <CurrentValue xsi:type="xsd:short">300</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D221</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヨコ糸：To</Detail>
+              <CurrentValue xsi:type="xsd:short">315</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D222</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>逆転：From</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D223</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>逆転：To</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D232</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>巻取り正転補正係数</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D234</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>巻取り逆転補正係数</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D282</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ボタン切り替え</Detail>
+              <CurrentValue xsi:type="xsd:short">15</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D280</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>深夜SW</Detail>
+              <CurrentValue xsi:type="xsd:short">900</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D281</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>冷却ファン</Detail>
+              <CurrentValue xsi:type="xsd:short">750</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D336</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>エンコーダー</Detail>
+              <CurrentValue xsi:type="xsd:float">10</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D504</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>テンション　スケール値</Detail>
+              <CurrentValue xsi:type="xsd:float">235</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>Setting 画面</GroupName>
+        </PropertyGroupFormat>
+      </PropertyGroups>
+      <TextFieldGroups />
+    </SingleProductFormat>
+    <SingleProductFormat>
+      <RecordName>八尾デモ機</RecordName>
+      <SerialCode />
+      <Reference />
+      <ActControlSetting>
+        <ActHostAddress />
+        <ActProtocolType>PROTOCOL_USBGOT</ActProtocolType>
+        <ActCpuType>FX3UCCPU</ActCpuType>
+        <ActUnitType>FXCPU</ActUnitType>
+        <PortNumber>PORT_1</PortNumber>
+        <BaudRate>BAUDRATE_9600</BaudRate>
+        <DataBits>DATABIT_8</DataBits>
+        <StopBits>STOPBIT_ONE</StopBits>
+        <ParityBits>EVEN_PARITY</ParityBits>
+        <ActControl>TRC_DRT_AND_RTS</ActControl>
+        <ActTimeOut>10000</ActTimeOut>
+        <ActIONumber>1023</ActIONumber>
+        <ActUnitNumber>0</ActUnitNumber>
+        <ActDestinationPortNumber>0</ActDestinationPortNumber>
+        <ActDestinationIONumber>0</ActDestinationIONumber>
+      </ActControlSetting>
+      <PropertyGroups>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D202</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>手動スピード</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">50000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D204</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>連動スピード</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">30000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D330</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーフェス径</Detail>
+              <CurrentValue xsi:type="xsd:float">225</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D332</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比</Detail>
+              <CurrentValue xsi:type="xsd:float">6141.176</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D334</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーボパルス</Detail>
+              <CurrentValue xsi:type="xsd:float">4000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D250</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D252</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D253</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D254</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>バイアス速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D200</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>運転速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>巻取り</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D212</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>手動スピード</Detail>
+              <CurrentValue xsi:type="xsd:int">50000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D214</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>連動スピード</Detail>
+              <CurrentValue xsi:type="xsd:int">30000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D306</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比</Detail>
+              <CurrentValue xsi:type="xsd:float">8181.818</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D308</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーボパルス</Detail>
+              <CurrentValue xsi:type="xsd:float">4000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D256</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D258</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+              <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D259</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+              <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D255</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>バイアス速度</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D210</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>運転速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>送り出し</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D510</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>AD平均回数</Detail>
+              <CurrentValue xsi:type="xsd:int">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D542</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>比例ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D544</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>積分ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D546</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>微分ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D270</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>変化上限</Detail>
+              <CurrentValue xsi:type="xsd:int">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D272</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>変化下限</Detail>
+              <CurrentValue xsi:type="xsd:int">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D300</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ベース割合</Detail>
+              <CurrentValue xsi:type="xsd:float">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D274</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ビーム径補正値</Detail>
+              <CurrentValue xsi:type="xsd:float">0</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>PID</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D224</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>停止タイミング</Detail>
+              <CurrentValue xsi:type="xsd:short">10</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D220</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヨコ糸：From</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D221</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヨコ糸：To</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D222</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>逆転：From</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D223</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>逆転：To</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D232</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>巻取り正転補正係数</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D234</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>巻取り逆転補正係数</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D282</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ボタン切り替え</Detail>
+              <CurrentValue xsi:type="xsd:short">10</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D280</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>深夜SW</Detail>
+              <CurrentValue xsi:type="xsd:short">300</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D281</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>冷却ファン</Detail>
+              <CurrentValue xsi:type="xsd:short">300</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D336</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>エンコーダー</Detail>
+              <CurrentValue xsi:type="xsd:float">10</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D504</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>テンション　スケール値</Detail>
+              <CurrentValue xsi:type="xsd:float">0</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>Setting 画面</GroupName>
+        </PropertyGroupFormat>
+      </PropertyGroups>
+      <TextFieldGroups />
+    </SingleProductFormat>
+    <SingleProductFormat>
+      <RecordName>NBC鹿児島01</RecordName>
+      <SerialCode />
+      <Reference />
+      <ActControlSetting>
+        <ActHostAddress />
+        <ActProtocolType>PROTOCOL_USBGOT</ActProtocolType>
+        <ActCpuType>FX3UCCPU</ActCpuType>
+        <ActUnitType>FXCPU</ActUnitType>
+        <PortNumber>PORT_1</PortNumber>
+        <BaudRate>BAUDRATE_9600</BaudRate>
+        <DataBits>DATABIT_8</DataBits>
+        <StopBits>STOPBIT_ONE</StopBits>
+        <ParityBits>EVEN_PARITY</ParityBits>
+        <ActControl>TRC_DRT_AND_RTS</ActControl>
+        <ActTimeOut>10000</ActTimeOut>
+        <ActIONumber>1023</ActIONumber>
+        <ActUnitNumber>0</ActUnitNumber>
+        <ActDestinationPortNumber>0</ActDestinationPortNumber>
+        <ActDestinationIONumber>0</ActDestinationIONumber>
+      </ActControlSetting>
+      <PropertyGroups>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D202</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>手動スピード</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">50000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D204</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>連動スピード</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">30000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D330</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーフェス径</Detail>
+              <CurrentValue xsi:type="xsd:float">225</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D332</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比</Detail>
+              <CurrentValue xsi:type="xsd:float">6141.176</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D334</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーボパルス</Detail>
+              <CurrentValue xsi:type="xsd:float">4000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D250</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D252</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D253</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D254</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>バイアス速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D200</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>運転速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>巻取り</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D212</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>手動スピード</Detail>
+              <CurrentValue xsi:type="xsd:int">50000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D214</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>連動スピード</Detail>
+              <CurrentValue xsi:type="xsd:int">30000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D306</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比</Detail>
+              <CurrentValue xsi:type="xsd:float">8181.818</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D308</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーボパルス</Detail>
+              <CurrentValue xsi:type="xsd:float">4000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D256</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D258</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+              <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D259</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+              <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D255</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>バイアス速度</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D210</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>運転速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>送り出し</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D510</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>AD平均回数</Detail>
+              <CurrentValue xsi:type="xsd:int">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D542</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>比例ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D544</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>積分ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D546</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>微分ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D270</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>変化上限</Detail>
+              <CurrentValue xsi:type="xsd:int">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D272</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>変化下限</Detail>
+              <CurrentValue xsi:type="xsd:int">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D300</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ベース割合</Detail>
+              <CurrentValue xsi:type="xsd:float">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D274</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ビーム径補正値</Detail>
+              <CurrentValue xsi:type="xsd:float">0</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>PID</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D224</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>停止タイミング</Detail>
+              <CurrentValue xsi:type="xsd:short">10</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D220</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヨコ糸：From</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D221</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヨコ糸：To</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D222</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>逆転：From</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D223</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>逆転：To</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D232</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>巻取り正転補正係数</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D234</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>巻取り逆転補正係数</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D282</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ボタン切り替え</Detail>
+              <CurrentValue xsi:type="xsd:short">10</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D280</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>深夜SW</Detail>
+              <CurrentValue xsi:type="xsd:short">300</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D281</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>冷却ファン</Detail>
+              <CurrentValue xsi:type="xsd:short">300</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D336</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>エンコーダー</Detail>
+              <CurrentValue xsi:type="xsd:float">10</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D504</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>テンション　スケール値</Detail>
+              <CurrentValue xsi:type="xsd:float">0</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>Setting 画面</GroupName>
+        </PropertyGroupFormat>
+      </PropertyGroups>
+      <TextFieldGroups>
+        <TextFieldGroupFormat>
+          <Fields />
+        </TextFieldGroupFormat>
+      </TextFieldGroups>
+    </SingleProductFormat>
+    <SingleProductFormat>
+      <RecordName>藤田RGK7　電装</RecordName>
+      <SerialCode />
+      <Reference />
+      <ActControlSetting>
+        <ActHostAddress />
+        <ActProtocolType>PROTOCOL_USBGOT</ActProtocolType>
+        <ActCpuType>FX3UCCPU</ActCpuType>
+        <ActUnitType>FXCPU</ActUnitType>
+        <PortNumber>PORT_1</PortNumber>
+        <BaudRate>BAUDRATE_9600</BaudRate>
+        <DataBits>DATABIT_8</DataBits>
+        <StopBits>STOPBIT_ONE</StopBits>
+        <ParityBits>EVEN_PARITY</ParityBits>
+        <ActControl>TRC_DRT_AND_RTS</ActControl>
+        <ActTimeOut>10000</ActTimeOut>
+        <ActIONumber>1023</ActIONumber>
+        <ActUnitNumber>0</ActUnitNumber>
+        <ActDestinationPortNumber>0</ActDestinationPortNumber>
+        <ActDestinationIONumber>0</ActDestinationIONumber>
+      </ActControlSetting>
+      <PropertyGroups>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D202</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>手動スピード</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">50000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D204</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>連動スピード</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D330</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーフェス径</Detail>
+              <CurrentValue xsi:type="xsd:float">242.6</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D332</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比</Detail>
+              <CurrentValue xsi:type="xsd:float">5241.176</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D334</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーボパルス</Detail>
+              <CurrentValue xsi:type="xsd:float">2000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D250</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">100000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D252</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D253</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D254</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>バイアス速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D200</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>運転速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">90000</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>巻取り</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D212</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>手動スピード</Detail>
+              <CurrentValue xsi:type="xsd:int">50000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D214</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>連動スピード</Detail>
+              <CurrentValue xsi:type="xsd:int">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D306</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比</Detail>
+              <CurrentValue xsi:type="xsd:float">6670.588</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D308</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーボパルス</Detail>
+              <CurrentValue xsi:type="xsd:float">2000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D256</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">100000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D258</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+              <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D259</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+              <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D255</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>バイアス速度</Detail>
+              <CurrentValue xsi:type="xsd:short">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D210</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>運転速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">90000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D304</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ローラー径</Detail>
+              <CurrentValue xsi:type="xsd:float">310</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>送り出し</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D510</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>AD平均回数</Detail>
+              <CurrentValue xsi:type="xsd:int">5</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D542</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>比例ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">600</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D544</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>積分ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">35</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D546</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>微分ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">60</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D270</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>変化上限</Detail>
+              <CurrentValue xsi:type="xsd:int">2000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D272</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>変化下限</Detail>
+              <CurrentValue xsi:type="xsd:int">-2000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D300</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ベース割合</Detail>
+              <CurrentValue xsi:type="xsd:float">0.7</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D274</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ビーム径補正値</Detail>
+              <CurrentValue xsi:type="xsd:float">1.1</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>PID</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D224</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>停止タイミング</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D220</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヨコ糸：From</Detail>
+              <CurrentValue xsi:type="xsd:short">270</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D221</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヨコ糸：To</Detail>
+              <CurrentValue xsi:type="xsd:short">310</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D222</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>逆転：From</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D223</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>逆転：To</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D232</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>巻取り正転補正係数</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D234</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>巻取り逆転補正係数</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D282</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ボタン切り替え</Detail>
+              <CurrentValue xsi:type="xsd:short">10</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D280</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>深夜SW</Detail>
+              <CurrentValue xsi:type="xsd:short">150</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D281</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>冷却ファン</Detail>
+              <CurrentValue xsi:type="xsd:short">300</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D336</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>エンコーダー</Detail>
+              <CurrentValue xsi:type="xsd:float">10</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D504</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>テンション　スケール値</Detail>
+              <CurrentValue xsi:type="xsd:float">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D620</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>rpm計算用：メッシュ</Detail>
+              <CurrentValue xsi:type="xsd:float">12</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D622</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>rpm計算用：回転数</Detail>
+              <CurrentValue xsi:type="xsd:float">120</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D624</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>rpm計算用：角度範囲</Detail>
+              <CurrentValue xsi:type="xsd:float">270</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D236</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヤーン：From</Detail>
+              <CurrentValue xsi:type="xsd:short">90</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D237</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヤーン：To</Detail>
+              <CurrentValue xsi:type="xsd:short">180</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>Setting 画面</GroupName>
+        </PropertyGroupFormat>
+      </PropertyGroups>
+      <TextFieldGroups>
+        <TextFieldGroupFormat>
+          <Fields />
+        </TextFieldGroupFormat>
+      </TextFieldGroups>
+    </SingleProductFormat>
+    <SingleProductFormat>
+      <RecordName>藤田RGK8 電装(2021-03)</RecordName>
+      <SerialCode />
+      <Reference />
+      <ActControlSetting>
+        <ActHostAddress />
+        <ActProtocolType>PROTOCOL_USBGOT</ActProtocolType>
+        <ActCpuType>FX3UCCPU</ActCpuType>
+        <ActUnitType>FXCPU</ActUnitType>
+        <PortNumber>PORT_1</PortNumber>
+        <BaudRate>BAUDRATE_9600</BaudRate>
+        <DataBits>DATABIT_8</DataBits>
+        <StopBits>STOPBIT_ONE</StopBits>
+        <ParityBits>EVEN_PARITY</ParityBits>
+        <ActControl>TRC_DRT_AND_RTS</ActControl>
+        <ActTimeOut>10000</ActTimeOut>
+        <ActIONumber>1023</ActIONumber>
+        <ActUnitNumber>0</ActUnitNumber>
+        <ActDestinationPortNumber>0</ActDestinationPortNumber>
+        <ActDestinationIONumber>0</ActDestinationIONumber>
+      </ActControlSetting>
+      <PropertyGroups>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D202</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>手動スピード</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">50000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D204</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>連動スピード</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D330</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーフェス径</Detail>
+              <CurrentValue xsi:type="xsd:float">226.4</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D332</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比</Detail>
+              <CurrentValue xsi:type="xsd:float">2133.33</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D334</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーボパルス</Detail>
+              <CurrentValue xsi:type="xsd:float">4000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D250</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">100000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D252</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D253</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D254</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>バイアス速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D200</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>運転速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">90000</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>巻取り</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D212</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>手動スピード</Detail>
+              <CurrentValue xsi:type="xsd:int">50000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D214</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>連動スピード</Detail>
+              <CurrentValue xsi:type="xsd:int">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D306</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比</Detail>
+              <CurrentValue xsi:type="xsd:float">4235.29</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D308</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーボパルス</Detail>
+              <CurrentValue xsi:type="xsd:float">4000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D256</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">100000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D258</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+              <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D259</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+              <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D255</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>バイアス速度</Detail>
+              <CurrentValue xsi:type="xsd:short">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D210</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>運転速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">90000</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>送り出し</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D510</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>AD平均回数</Detail>
+              <CurrentValue xsi:type="xsd:int">5</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D542</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>比例ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">600</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D544</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>積分ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">35</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D546</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>微分ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">60</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D270</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>変化上限</Detail>
+              <CurrentValue xsi:type="xsd:int">2000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D272</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>変化下限</Detail>
+              <CurrentValue xsi:type="xsd:int">-2000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D300</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ベース割合</Detail>
+              <CurrentValue xsi:type="xsd:float">0.7</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D274</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ビーム径補正値</Detail>
+              <CurrentValue xsi:type="xsd:float">1.1</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>PID</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D224</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>停止タイミング</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D220</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヨコ糸：From</Detail>
+              <CurrentValue xsi:type="xsd:short">270</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D221</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヨコ糸：To</Detail>
+              <CurrentValue xsi:type="xsd:short">310</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D222</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>逆転：From</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D223</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>逆転：To</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D232</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>巻取り正転補正係数</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D234</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>巻取り逆転補正係数</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D282</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ボタン切り替え</Detail>
+              <CurrentValue xsi:type="xsd:short">10</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D280</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>深夜SW</Detail>
+              <CurrentValue xsi:type="xsd:short">150</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D281</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>冷却ファン</Detail>
+              <CurrentValue xsi:type="xsd:short">300</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D336</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>エンコーダー</Detail>
+              <CurrentValue xsi:type="xsd:float">10</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D504</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>テンション　スケール値</Detail>
+              <CurrentValue xsi:type="xsd:float">0</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>Setting 画面</GroupName>
+        </PropertyGroupFormat>
+      </PropertyGroups>
+      <TextFieldGroups>
+        <TextFieldGroupFormat>
+          <Fields />
+        </TextFieldGroupFormat>
+      </TextFieldGroups>
+    </SingleProductFormat>
+    <SingleProductFormat>
+      <RecordName>本嶋 RGK3 電装(2021-04)</RecordName>
+      <SerialCode />
+      <Reference />
+      <ActControlSetting>
+        <ActHostAddress />
+        <ActProtocolType>PROTOCOL_USBGOT</ActProtocolType>
+        <ActCpuType>FX3UCCPU</ActCpuType>
+        <ActUnitType>FXCPU</ActUnitType>
+        <PortNumber>PORT_1</PortNumber>
+        <BaudRate>BAUDRATE_9600</BaudRate>
+        <DataBits>DATABIT_8</DataBits>
+        <StopBits>STOPBIT_ONE</StopBits>
+        <ParityBits>EVEN_PARITY</ParityBits>
+        <ActControl>TRC_DRT_AND_RTS</ActControl>
+        <ActTimeOut>10000</ActTimeOut>
+        <ActIONumber>1023</ActIONumber>
+        <ActUnitNumber>0</ActUnitNumber>
+        <ActDestinationPortNumber>0</ActDestinationPortNumber>
+        <ActDestinationIONumber>0</ActDestinationIONumber>
+      </ActControlSetting>
+      <PropertyGroups>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D202</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>手動スピード</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D204</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>連動スピード</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D330</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーフェス径</Detail>
+              <CurrentValue xsi:type="xsd:float">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D332</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比</Detail>
+              <CurrentValue xsi:type="xsd:float">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D334</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーボパルス</Detail>
+              <CurrentValue xsi:type="xsd:float">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D250</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D252</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D253</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D254</DeviceName>
+              <DeviceFormatType>Unsigned16</DeviceFormatType>
+              <Detail>バイアス速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedShort">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D200</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>運転速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">0</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>巻取り</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D212</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>手動スピード</Detail>
+              <CurrentValue xsi:type="xsd:int">50000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D214</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>連動スピード</Detail>
+              <CurrentValue xsi:type="xsd:int">200000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D306</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>減速比</Detail>
+              <CurrentValue xsi:type="xsd:float">27000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D308</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>サーボパルス</Detail>
+              <CurrentValue xsi:type="xsd:float">4000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D256</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>最高速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">100000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D258</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>加速時間</Detail>
+              <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D259</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>減速時間</Detail>
+              <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D255</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>バイアス速度</Detail>
+              <CurrentValue xsi:type="xsd:short">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D210</DeviceName>
+              <DeviceFormatType>Unsigned32</DeviceFormatType>
+              <Detail>運転速度</Detail>
+              <CurrentValue xsi:type="xsd:unsignedInt">90000</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>送り出し</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D510</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>AD平均回数</Detail>
+              <CurrentValue xsi:type="xsd:int">5</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D542</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>比例ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">600</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D544</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>積分ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">35</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D546</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>微分ゲイン</Detail>
+              <CurrentValue xsi:type="xsd:short">60</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D270</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>変化上限</Detail>
+              <CurrentValue xsi:type="xsd:int">2000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D272</DeviceName>
+              <DeviceFormatType>Signed32</DeviceFormatType>
+              <Detail>変化下限</Detail>
+              <CurrentValue xsi:type="xsd:int">-2000</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D300</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ベース割合</Detail>
+              <CurrentValue xsi:type="xsd:float">0.7</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D274</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>ビーム径補正値</Detail>
+              <CurrentValue xsi:type="xsd:float">1.1</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>PID</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D224</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>停止タイミング</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D220</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヨコ糸：From</Detail>
+              <CurrentValue xsi:type="xsd:short">270</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D221</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ヨコ糸：To</Detail>
+              <CurrentValue xsi:type="xsd:short">310</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D222</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>逆転：From</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D223</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>逆転：To</Detail>
+              <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D232</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>巻取り正転補正係数</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D234</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>巻取り逆転補正係数</Detail>
+              <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D282</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>ボタン切り替え</Detail>
+              <CurrentValue xsi:type="xsd:short">10</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D280</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>深夜SW</Detail>
+              <CurrentValue xsi:type="xsd:short">150</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D281</DeviceName>
+              <DeviceFormatType>Signed16</DeviceFormatType>
+              <Detail>冷却ファン</Detail>
+              <CurrentValue xsi:type="xsd:short">300</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D336</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>エンコーダー</Detail>
+              <CurrentValue xsi:type="xsd:float">10</CurrentValue>
+            </DeviceFieldFormat>
+            <DeviceFieldFormat>
+              <DeviceName>D504</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>テンション　スケール値</Detail>
+              <CurrentValue xsi:type="xsd:float">0</CurrentValue>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>Setting 画面</GroupName>
+        </PropertyGroupFormat>
+        <PropertyGroupFormat>
+          <Fields>
+            <DeviceFieldFormat>
+              <DeviceName>D460</DeviceName>
+              <DeviceFormatType>Float</DeviceFormatType>
+              <Detail>取り込み時径</Detail>
+            </DeviceFieldFormat>
+          </Fields>
+          <GroupName>径測定</GroupName>
+        </PropertyGroupFormat>
+      </PropertyGroups>
+      <TextFieldGroups>
+        <TextFieldGroupFormat>
+          <Fields />
+        </TextFieldGroupFormat>
+      </TextFieldGroups>
+    </SingleProductFormat>
+  </SingleProductsData>
+  <DefaultData>
+    <RecordName>PWL180</RecordName>
+    <SerialCode />
+    <Reference />
+    <ActControlSetting>
+      <ActHostAddress />
+      <ActProtocolType>PROTOCOL_USBGOT</ActProtocolType>
+      <ActCpuType>FX3UCCPU</ActCpuType>
+      <ActUnitType>FXCPU</ActUnitType>
+      <PortNumber>PORT_1</PortNumber>
+      <BaudRate>BAUDRATE_9600</BaudRate>
+      <DataBits>DATABIT_8</DataBits>
+      <StopBits>STOPBIT_ONE</StopBits>
+      <ParityBits>EVEN_PARITY</ParityBits>
+      <ActControl>TRC_DRT_AND_RTS</ActControl>
+      <ActTimeOut>10000</ActTimeOut>
+      <ActIONumber>1023</ActIONumber>
+      <ActUnitNumber>0</ActUnitNumber>
+      <ActDestinationPortNumber>0</ActDestinationPortNumber>
+      <ActDestinationIONumber>0</ActDestinationIONumber>
+    </ActControlSetting>
+    <PropertyGroups>
+      <PropertyGroupFormat>
+        <Fields>
+          <DeviceFieldFormat>
+            <DeviceName>D202</DeviceName>
+            <DeviceFormatType>Unsigned32</DeviceFormatType>
+            <Detail>手動スピード</Detail>
+            <CurrentValue xsi:type="xsd:unsignedInt">100000</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D204</DeviceName>
+            <DeviceFormatType>Unsigned32</DeviceFormatType>
+            <Detail>連動スピード</Detail>
+            <CurrentValue xsi:type="xsd:unsignedInt">150000</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D330</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>サーフェス径</Detail>
+            <CurrentValue xsi:type="xsd:float">218</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D332</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>減速比</Detail>
+            <CurrentValue xsi:type="xsd:float">5823.529</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D334</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>サーボパルス</Detail>
+            <CurrentValue xsi:type="xsd:float">4000</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D250</DeviceName>
+            <DeviceFormatType>Unsigned32</DeviceFormatType>
+            <Detail>最高速度</Detail>
+            <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D252</DeviceName>
+            <DeviceFormatType>Unsigned16</DeviceFormatType>
+            <Detail>加速時間</Detail>
+            <CurrentValue xsi:type="xsd:unsignedShort">50</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D253</DeviceName>
+            <DeviceFormatType>Unsigned16</DeviceFormatType>
+            <Detail>減速時間</Detail>
+            <CurrentValue xsi:type="xsd:unsignedShort">50</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D254</DeviceName>
+            <DeviceFormatType>Unsigned16</DeviceFormatType>
+            <Detail>バイアス速度</Detail>
+            <CurrentValue xsi:type="xsd:unsignedShort">0</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D200</DeviceName>
+            <DeviceFormatType>Unsigned32</DeviceFormatType>
+            <Detail>運転速度</Detail>
+            <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+          </DeviceFieldFormat>
+        </Fields>
+        <GroupName>巻取り</GroupName>
+      </PropertyGroupFormat>
+      <PropertyGroupFormat>
+        <Fields>
+          <DeviceFieldFormat>
+            <DeviceName>D212</DeviceName>
+            <DeviceFormatType>Signed32</DeviceFormatType>
+            <Detail>手動スピード</Detail>
+            <CurrentValue xsi:type="xsd:int">100000</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D214</DeviceName>
+            <DeviceFormatType>Signed32</DeviceFormatType>
+            <Detail>連動スピード</Detail>
+            <CurrentValue xsi:type="xsd:int">150000</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D306</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>減速比</Detail>
+            <CurrentValue xsi:type="xsd:float">8035.714</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D308</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>サーボパルス</Detail>
+            <CurrentValue xsi:type="xsd:float">4000</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D256</DeviceName>
+            <DeviceFormatType>Unsigned32</DeviceFormatType>
+            <Detail>最高速度</Detail>
+            <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D258</DeviceName>
+            <DeviceFormatType>Signed16</DeviceFormatType>
+            <Detail>加速時間</Detail>
+            <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D259</DeviceName>
+            <DeviceFormatType>Signed16</DeviceFormatType>
+            <Detail>減速時間</Detail>
+            <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D255</DeviceName>
+            <DeviceFormatType>Signed16</DeviceFormatType>
+            <Detail>バイアス速度</Detail>
+            <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D210</DeviceName>
+            <DeviceFormatType>Unsigned32</DeviceFormatType>
+            <Detail>運転速度</Detail>
+            <CurrentValue xsi:type="xsd:unsignedInt">200000</CurrentValue>
+          </DeviceFieldFormat>
+        </Fields>
+        <GroupName>送り出し</GroupName>
+      </PropertyGroupFormat>
+      <PropertyGroupFormat>
+        <Fields>
+          <DeviceFieldFormat>
+            <DeviceName>D510</DeviceName>
+            <DeviceFormatType>Signed32</DeviceFormatType>
+            <Detail>AD平均回数</Detail>
+            <CurrentValue xsi:type="xsd:int">5</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D542</DeviceName>
+            <DeviceFormatType>Signed16</DeviceFormatType>
+            <Detail>比例ゲイン</Detail>
+            <CurrentValue xsi:type="xsd:short">800</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D544</DeviceName>
+            <DeviceFormatType>Signed16</DeviceFormatType>
+            <Detail>積分ゲイン</Detail>
+            <CurrentValue xsi:type="xsd:short">250</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D546</DeviceName>
+            <DeviceFormatType>Signed16</DeviceFormatType>
+            <Detail>微分ゲイン</Detail>
+            <CurrentValue xsi:type="xsd:short">50</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D270</DeviceName>
+            <DeviceFormatType>Signed32</DeviceFormatType>
+            <Detail>変化上限</Detail>
+            <CurrentValue xsi:type="xsd:int">2000</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D272</DeviceName>
+            <DeviceFormatType>Signed32</DeviceFormatType>
+            <Detail>変化下限</Detail>
+            <CurrentValue xsi:type="xsd:int">-2000</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D300</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>ベース割合</Detail>
+            <CurrentValue xsi:type="xsd:float">0.7</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D274</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>ビーム径補正値</Detail>
+            <CurrentValue xsi:type="xsd:float">1.1</CurrentValue>
+          </DeviceFieldFormat>
+        </Fields>
+        <GroupName>PID</GroupName>
+      </PropertyGroupFormat>
+      <PropertyGroupFormat>
+        <Fields>
+          <DeviceFieldFormat>
+            <DeviceName>D224</DeviceName>
+            <DeviceFormatType>Signed16</DeviceFormatType>
+            <Detail>停止タイミング</Detail>
+            <CurrentValue xsi:type="xsd:short">20</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D220</DeviceName>
+            <DeviceFormatType>Signed16</DeviceFormatType>
+            <Detail>ヨコ糸：From</Detail>
+            <CurrentValue xsi:type="xsd:short">300</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D221</DeviceName>
+            <DeviceFormatType>Signed16</DeviceFormatType>
+            <Detail>ヨコ糸：To</Detail>
+            <CurrentValue xsi:type="xsd:short">315</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D222</DeviceName>
+            <DeviceFormatType>Signed16</DeviceFormatType>
+            <Detail>逆転：From</Detail>
+            <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D223</DeviceName>
+            <DeviceFormatType>Signed16</DeviceFormatType>
+            <Detail>逆転：To</Detail>
+            <CurrentValue xsi:type="xsd:short">0</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D232</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>巻取り正転補正係数</Detail>
+            <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D234</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>巻取り逆転補正係数</Detail>
+            <CurrentValue xsi:type="xsd:float">1</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D282</DeviceName>
+            <DeviceFormatType>Signed16</DeviceFormatType>
+            <Detail>ボタン切り替え</Detail>
+            <CurrentValue xsi:type="xsd:short">15</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D280</DeviceName>
+            <DeviceFormatType>Signed16</DeviceFormatType>
+            <Detail>深夜SW</Detail>
+            <CurrentValue xsi:type="xsd:short">900</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D281</DeviceName>
+            <DeviceFormatType>Signed16</DeviceFormatType>
+            <Detail>冷却ファン</Detail>
+            <CurrentValue xsi:type="xsd:short">750</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D336</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>エンコーダー</Detail>
+            <CurrentValue xsi:type="xsd:float">10</CurrentValue>
+          </DeviceFieldFormat>
+          <DeviceFieldFormat>
+            <DeviceName>D504</DeviceName>
+            <DeviceFormatType>Float</DeviceFormatType>
+            <Detail>テンション　スケール値</Detail>
+            <CurrentValue xsi:type="xsd:float">235</CurrentValue>
+          </DeviceFieldFormat>
+        </Fields>
+        <GroupName>Setting 画面</GroupName>
+      </PropertyGroupFormat>
+    </PropertyGroups>
+    <TextFieldGroups />
+  </DefaultData>
+</ProductSettingFormat>
