@@ -1,6 +1,0 @@
-C:\data\programSource\Visual Studio 2017\Projects\UtilityLibrary\FSharpLibrary\bin\Debug\netstandard2.0\FSharpLibrary.deps.json
-C:\data\programSource\Visual Studio 2017\Projects\UtilityLibrary\FSharpLibrary\bin\Debug\netstandard2.0\FSharpLibrary.dll
-C:\data\programSource\Visual Studio 2017\Projects\UtilityLibrary\FSharpLibrary\bin\Debug\netstandard2.0\FSharpLibrary.pdb
-C:\data\programSource\Visual Studio 2017\Projects\UtilityLibrary\FSharpLibrary\obj\Debug\netstandard2.0\FSharpLibrary.fsprojResolveAssemblyReference.cache
-C:\data\programSource\Visual Studio 2017\Projects\UtilityLibrary\FSharpLibrary\obj\Debug\netstandard2.0\FSharpLibrary.dll
-C:\data\programSource\Visual Studio 2017\Projects\UtilityLibrary\FSharpLibrary\obj\Debug\netstandard2.0\FSharpLibrary.pdb
